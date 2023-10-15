@@ -1,0 +1,612 @@
+{
+    "name": "Mizer",
+    "version": "2023-10-15",
+    "default_context": "Global Context",
+    "os": [
+        "windows"
+    ],
+    "contexts": {
+        "Global Context": {
+            "pause_unit": [
+                "Tab",
+                ""
+            ],
+            "fac_group4": [
+                "Ctrl + Shift + 4",
+                ""
+            ],
+            "select_nearest_land_factory": [
+                "Ctrl + Shift + D",
+                ""
+            ],
+            "shift_overcharge": [
+                "Shift + O",
+                ""
+            ],
+            "set_group7": [
+                "Ctrl + 7",
+                ""
+            ],
+            "split_screen_disable": [
+                "End",
+                ""
+            ],
+            "switch_layout_up": [
+                "Alt + UpArrow",
+                ""
+            ],
+            "soft_stop": [
+                "Shift + Esc",
+                ""
+            ],
+            "toggle_score_screen": [
+                "F2",
+                ""
+            ],
+            "set_group9": [
+                "Ctrl + 9",
+                ""
+            ],
+            "track_unit_second_mon": [
+                "Ctrl + Alt + T",
+                ""
+            ],
+            "append_group1": [
+                "Shift + 1",
+                ""
+            ],
+            "chat_page_up": [
+                "PageUp",
+                ""
+            ],
+            "append_group3": [
+                "Shift + 3",
+                ""
+            ],
+            "rename": [
+                "Ctrl + N",
+                ""
+            ],
+            "shift_spreadattack": [
+                "Shift + Z",
+                ""
+            ],
+            "mode": [
+                "[",
+                ""
+            ],
+            "set_group5": [
+                "Ctrl + 5",
+                ""
+            ],
+            "ping_alert": [
+                "F5",
+                ""
+            ],
+            "toggle_reclaim_labels": [
+                "Ctrl + Alt + R",
+                ""
+            ],
+            "select_all_units_of_same_type": [
+                "Ctrl + Z",
+                ""
+            ],
+            "debug_toggle_log_window": [
+                "Ctrl + F9",
+                ""
+            ],
+            "append_group5": [
+                "Shift + 5",
+                ""
+            ],
+            "debug_toggle_pannels": [
+                "Ctrl + Shift + F1",
+                ""
+            ],
+            "fac_group7": [
+                "Ctrl + Shift + 7",
+                ""
+            ],
+            "set_group8": [
+                "Ctrl + 8",
+                ""
+            ],
+            "switch_skin_down": [
+                "Alt + LeftArrow",
+                ""
+            ],
+            "append_group4": [
+                "Shift + 4",
+                ""
+            ],
+            "select_all_onscreen": [
+                "Ctrl + C",
+                ""
+            ],
+            "chat_line_up": [
+                "Shift + PageUp",
+                ""
+            ],
+            "toggle_notify_customiser": [
+                "Ctrl + Alt + F1",
+                ""
+            ],
+            "track_unit_minimap": [
+                "Ctrl + Shift + T",
+                ""
+            ],
+            "group1": [
+                "1",
+                ""
+            ],
+            "group0": [
+                "0",
+                ""
+            ],
+            "group3": [
+                "3",
+                ""
+            ],
+            "group2": [
+                "2",
+                ""
+            ],
+            "select_all_eng_onscreen": [
+                "Ctrl + .",
+                ""
+            ],
+            "group4": [
+                "4",
+                ""
+            ],
+            "group7": [
+                "7",
+                ""
+            ],
+            "group6": [
+                "6",
+                ""
+            ],
+            "group9": [
+                "9",
+                ""
+            ],
+            "select_all_factory_onscreen": [
+                "Ctrl + H",
+                ""
+            ],
+            "pause": [
+                "Pause",
+                ""
+            ],
+            "reclaim": [
+                "A",
+                ""
+            ],
+            "aa": [
+                "C",
+                ""
+            ],
+            "arties": [
+                "B",
+                ""
+            ],
+            "set_group3": [
+                "Ctrl + 3",
+                ""
+            ],
+            "massfab": [
+                "D",
+                ""
+            ],
+            "templates": [
+                "G",
+                ""
+            ],
+            "fac_group9": [
+                "Ctrl + Shift + 9",
+                ""
+            ],
+            "guard": [
+                "I",
+                ""
+            ],
+            "engystation": [
+                "H",
+                ""
+            ],
+            "split_screen_enable": [
+                "Home",
+                ""
+            ],
+            "mml": [
+                "J",
+                ""
+            ],
+            "upgrades": [
+                "M",
+                ""
+            ],
+            "fieldengy": [
+                "L",
+                ""
+            ],
+            "overcharge": [
+                "O",
+                ""
+            ],
+            "tml": [
+                "N",
+                ""
+            ],
+            "patrol": [
+                "Q",
+                ""
+            ],
+            "mass": [
+                "S",
+                ""
+            ],
+            "shields": [
+                "R",
+                ""
+            ],
+            "debug_create_unit": [
+                "Alt + F2",
+                ""
+            ],
+            "set_group4": [
+                "Ctrl + 4",
+                ""
+            ],
+            "ping_attack": [
+                "F7",
+                ""
+            ],
+            "torpedo": [
+                "V",
+                ""
+            ],
+            "select_naval": [
+                "Ctrl + S",
+                ""
+            ],
+            "set_group1": [
+                "Ctrl + 1",
+                ""
+            ],
+            "toggle_repeat_build": [
+                "Z",
+                ""
+            ],
+            "fac_group2": [
+                "Ctrl + Shift + 2",
+                ""
+            ],
+            "shift_attack": [
+                "Shift + U",
+                ""
+            ],
+            "select_engineers": [
+                "Ctrl + B",
+                ""
+            ],
+            "debug_bones": [
+                "Ctrl + Alt + B",
+                ""
+            ],
+            "goto_engineer": [
+                "Shift + .",
+                ""
+            ],
+            "select_land": [
+                "Ctrl + D",
+                ""
+            ],
+            "select_anti_air_fighters": [
+                "Ctrl + Q",
+                ""
+            ],
+            "debug_sally_shears": [
+                "Ctrl + Alt + Z",
+                ""
+            ],
+            "ping_move": [
+                "F6",
+                ""
+            ],
+            "show_objective_screen": [
+                "F12",
+                ""
+            ],
+            "debug_copy_units": [
+                "Ctrl + Shift + C",
+                ""
+            ],
+            "toggle_disconnect_screen": [
+                "F11",
+                ""
+            ],
+            "select_all": [
+                "Ctrl + X",
+                ""
+            ],
+            "select_nearest_naval_factory": [
+                "Ctrl + Shift + S",
+                ""
+            ],
+            "toggle_main_menu": [
+                "F10",
+                ""
+            ],
+            "toggle_key_bindings": [
+                "F1",
+                ""
+            ],
+            "reset_game_speed": [
+                "*",
+                ""
+            ],
+            "fac_group1": [
+                "Ctrl + Shift + 1",
+                ""
+            ],
+            "fac_group3": [
+                "Ctrl + Shift + 3",
+                ""
+            ],
+            "show_network_stats": [
+                "F9",
+                ""
+            ],
+            "select_commander": [
+                "Alt + Comma",
+                ""
+            ],
+            "debug_skeletons": [
+                "Ctrl + Alt + V",
+                ""
+            ],
+            "tog_defense": [
+                "Ctrl + E",
+                ""
+            ],
+            "goto_commander": [
+                "Comma",
+                ""
+            ],
+            "attack": [
+                "U",
+                ""
+            ],
+            "select_idle_engineer": [
+                "Alt + .",
+                ""
+            ],
+            "select_air": [
+                "Ctrl + A",
+                ""
+            ],
+            "create_build_template": [
+                "Num1",
+                ""
+            ],
+            "increase_game_speed": [
+                "NumPlus",
+                ""
+            ],
+            "xp": [
+                "Y",
+                ""
+            ],
+            "defense": [
+                "X",
+                ""
+            ],
+            "cycle_engineers": [
+                ".",
+                ""
+            ],
+            "debug_paste_units": [
+                "Ctrl + Shift + V",
+                ""
+            ],
+            "mobileshield": [
+                "K",
+                ""
+            ],
+            "append_group0": [
+                "Shift + 0",
+                ""
+            ],
+            "set_group6": [
+                "Ctrl + 6",
+                ""
+            ],
+            "pgen": [
+                "F",
+                ""
+            ],
+            "fac_group6": [
+                "Ctrl + Shift + 6",
+                ""
+            ],
+            "quick_save": [
+                "F3",
+                ""
+            ],
+            "chat_line_down": [
+                "Shift + PageDown",
+                ""
+            ],
+            "cam_free": [
+                "Ctrl + V",
+                ""
+            ],
+            "debug_nodamage": [
+                "Ctrl + Alt + N",
+                ""
+            ],
+            "suicide": [
+                "Ctrl + K",
+                ""
+            ],
+            "debug_teleport": [
+                "Ctrl + T",
+                ""
+            ],
+            "tog_econ": [
+                "Ctrl + R",
+                ""
+            ],
+            "add_cam_position": [
+                "Shift + Tab",
+                ""
+            ],
+            "stop": [
+                "Esc",
+                ""
+            ],
+            "cap_frame": [
+                "Ctrl + F",
+                ""
+            ],
+            "ping_marker": [
+                "F8",
+                ""
+            ],
+            "debug_dump_focus_ui_control": [
+                "Ctrl + Alt + W",
+                ""
+            ],
+            "show_fps": [
+                "/",
+                ""
+            ],
+            "rem_cam_position": [
+                "Ctrl + Tab",
+                ""
+            ],
+            "set_group2": [
+                "Ctrl + 2",
+                ""
+            ],
+            "append_group8": [
+                "Shift + 8",
+                ""
+            ],
+            "debug_destroy_units": [
+                "Alt + Delete",
+                ""
+            ],
+            "append_group7": [
+                "Shift + 7",
+                ""
+            ],
+            "fac_group8": [
+                "Ctrl + Shift + 8",
+                ""
+            ],
+            "debug_dump_ui_controls": [
+                "Ctrl + Alt + D",
+                ""
+            ],
+            "set_group0": [
+                "Ctrl + 0",
+                ""
+            ],
+            "chat_page_down": [
+                "PageDown",
+                ""
+            ],
+            "append_group6": [
+                "Shift + 6",
+                ""
+            ],
+            "fac_group5": [
+                "Ctrl + Shift + 5",
+                ""
+            ],
+            "append_group2": [
+                "Shift + 2",
+                ""
+            ],
+            "fac_group0": [
+                "Ctrl + Shift + 0",
+                ""
+            ],
+            "switch_skin_up": [
+                "Alt + RightArrow",
+                ""
+            ],
+            "shift_reclaim": [
+                "Shift + A",
+                ""
+            ],
+            "select_nearest_air_factory": [
+                "Ctrl + Shift + A",
+                ""
+            ],
+            "toggle_diplomacy_screen": [
+                "F4",
+                ""
+            ],
+            "append_group9": [
+                "Shift + 9",
+                ""
+            ],
+            "decrease_game_speed": [
+                "NumMinus",
+                ""
+            ],
+            "builders": [
+                "W",
+                ""
+            ],
+            "shift_guard": [
+                "Shift + I",
+                ""
+            ],
+            "Kill_Selected_Units": [
+                "Ctrl + Shift + K",
+                ""
+            ],
+            "group5": [
+                "5",
+                ""
+            ],
+            "group8": [
+                "8",
+                ""
+            ],
+            "tog_military": [
+                "Ctrl + W",
+                ""
+            ],
+            "sensors": [
+                "E",
+                ""
+            ],
+            "tmd": [
+                "T",
+                ""
+            ],
+            "switch_layout_down": [
+                "Alt + DownArrow",
+                ""
+            ],
+            "shift_patrol": [
+                "Shift + Q",
+                ""
+            ],
+            "ACU": [
+                "Alt + A",
+                ""
+            ],
+            "Units": [
+                "Alt + S",
+                ""
+            ]
+        }
+    }
+}

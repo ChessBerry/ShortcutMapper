@@ -1,0 +1,3435 @@
+PreGameData = {
+    CurrentMapDir = '/maps/scmp_009',
+    IconReplacements = {
+        {
+            Identifier = 'penguins icon mod',
+            Name = "Penguin's Icon Mod",
+            Location = '/mods/penguins icon mod',
+            Author = 'Emperor_Penguin',
+            UID = '3ccc4eca-0cb1-11ec-ac65-a37599393411-02'
+        },
+        {
+            Identifier = 'acuhighlight',
+            Name = 'Acu highlight',
+            Location = '/mods/acuhighlight',
+            Author = '4z0t',
+            UID = 'acu-highlight-4z0t-v04'
+        }
+    }
+}
+mods_expanded = false
+Options = {
+    Log = {
+        Debug = false,
+        Warn = false,
+        Info = false,
+        Custom = false,
+        Error = false,
+        Filter = '*debug:'
+    }
+}
+CPUBenchmark = 120
+options_overrides = {
+    secondary_adapter = {
+        default = 'disabled',
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Disabled>',
+                    key = 'disabled'
+                }
+            }
+        }
+    },
+    language = 'US',
+    shadow_quality = {
+        default = 1,
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Off>',
+                    key = 0
+                },
+                {
+                    text = '<LOC _Low>',
+                    key = 1
+                },
+                {
+                    text = '<LOC _Medium>',
+                    key = 2
+                },
+                {
+                    text = '<LOC _High>',
+                    key = 3
+                }
+            }
+        }
+    },
+    fidelity_presets = {
+        default = 1,
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Low>',
+                    key = 0
+                },
+                {
+                    text = '<LOC _Medium>',
+                    key = 1
+                },
+                {
+                    text = '<LOC _High>',
+                    key = 2
+                },
+                {
+                    text = '<LOC _Custom>',
+                    key = 4
+                }
+            }
+        }
+    },
+    antialiasing = {
+        default = 0,
+        custom = {
+            states = {
+                {
+                    text = '<LOC OPTIONS_0029>Off',
+                    key = 0
+                },
+                {
+                    text = '2',
+                    key = 64
+                },
+                {
+                    text = '4',
+                    key = 128
+                },
+                {
+                    text = '8Q',
+                    key = 256
+                }
+            }
+        }
+    },
+    primary_adapter = {
+        default = '1024,768,60',
+        custom = {
+            states = {
+                {
+                    text = '<LOC OPTIONS_0070>Windowed',
+                    key = 'windowed'
+                },
+                {
+                    text = '1024x768(60)',
+                    key = '1024,768,60'
+                },
+                {
+                    text = '1024x768(70)',
+                    key = '1024,768,70'
+                },
+                {
+                    text = '1024x768(75)',
+                    key = '1024,768,75'
+                },
+                {
+                    text = '1152x864(75)',
+                    key = '1152,864,75'
+                },
+                {
+                    text = '1280x768(60)',
+                    key = '1280,768,60'
+                },
+                {
+                    text = '1280x800(60)',
+                    key = '1280,800,60'
+                },
+                {
+                    text = '1280x960(60)',
+                    key = '1280,960,60'
+                },
+                {
+                    text = '1280x960(75)',
+                    key = '1280,960,75'
+                },
+                {
+                    text = '1280x1024(60)',
+                    key = '1280,1024,60'
+                },
+                {
+                    text = '1280x1024(75)',
+                    key = '1280,1024,75'
+                },
+                {
+                    text = '1360x768(60)',
+                    key = '1360,768,60'
+                },
+                {
+                    text = '1366x768(60)',
+                    key = '1366,768,60'
+                },
+                {
+                    text = '1440x1080(60)',
+                    key = '1440,1080,60'
+                },
+                {
+                    text = '1440x1080(59)',
+                    key = '1440,1080,59'
+                },
+                {
+                    text = '1440x1080(50)',
+                    key = '1440,1080,50'
+                },
+                {
+                    text = '1600x900(60)',
+                    key = '1600,900,60'
+                },
+                {
+                    text = '1600x1024(59)',
+                    key = '1600,1024,59'
+                },
+                {
+                    text = '1600x1024(60)',
+                    key = '1600,1024,60'
+                },
+                {
+                    text = '1680x1050(59)',
+                    key = '1680,1050,59'
+                },
+                {
+                    text = '1680x1050(60)',
+                    key = '1680,1050,60'
+                },
+                {
+                    text = '1920x1080(60)',
+                    key = '1920,1080,60'
+                },
+                {
+                    text = '1920x1080(59)',
+                    key = '1920,1080,59'
+                },
+                {
+                    text = '1920x1080(50)',
+                    key = '1920,1080,50'
+                },
+                {
+                    text = '1440x900(60)',
+                    key = '1440,900,60'
+                }
+            }
+        }
+    },
+    fidelity = {
+        default = 1,
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Low>',
+                    key = 0
+                },
+                {
+                    text = '<LOC _Medium>',
+                    key = 1
+                },
+                {
+                    text = '<LOC _High>',
+                    key = 2
+                }
+            }
+        }
+    }
+}
+profile = {
+    current = 1,
+    profiles = {
+        {
+            LobbyOpt_HandicapMaxHealthSeven = '0',
+            LobbyOpt_Phantom_AutoBalance = '1',
+            LobbyOpt_CommonArmy = 'Off',
+            LobbyOpt_UnitCap = '1500',
+            console_fade_delay = 3,
+            LastScenario = '/maps/fun setons/fun setons_scenario.lua',
+            LobbyOpt_AIMapMarker = 'miss',
+            LobbyOpt_HandicapMassGenFive = '0',
+            console_font = 'Zeroes Three',
+            range_RenderBuild = true,
+            console_font_size = 12,
+            LobbyChangelog = 3769,
+            LobbyOpt_HandicapMassGenFourteen = '0',
+            LobbyOpt_NavalExpansionsAllowed = '4',
+            LobbyOpt_Victory = 'demoralization',
+            LobbyOpt_PhantomBonusMultiplier = '70',
+            LobbyOpt_KingOfTheHillHillPenalty = 2,
+            Notify_experimentals_disabled = true,
+            Notify_all_disabled = false,
+            LobbyOpt_PhantomRevealTo = '0',
+            LobbyOpt_DisconnectionDelay = 90,
+            LobbyOpt_HandicapMassGenFour = '0',
+            UserKeyMap = {
+                Tab = 'pause_unit',
+                ['Ctrl-Shift-4'] = 'fac_group4',
+                ['Ctrl-Shift-D'] = 'select_nearest_land_factory',
+                ['Shift-O'] = 'shift_overcharge',
+                ['Ctrl-7'] = 'set_group7',
+                End = 'split_screen_disable',
+                ['Alt-UpArrow'] = 'switch_layout_up',
+                ['Shift-Esc'] = 'soft_stop',
+                F2 = 'toggle_score_screen',
+                ['Ctrl-9'] = 'set_group9',
+                ['Ctrl-Alt-T'] = 'track_unit_second_mon',
+                ['Shift-1'] = 'append_group1',
+                PageUp = 'chat_page_up',
+                ['Shift-3'] = 'append_group3',
+                ['Ctrl-N'] = 'rename',
+                ['Shift-Z'] = 'shift_spreadattack',
+                LeftBracket = 'mode',
+                ['Ctrl-5'] = 'set_group5',
+                F5 = 'ping_alert',
+                ['Ctrl-Alt-R'] = 'toggle_reclaim_labels',
+                ['Ctrl-Z'] = 'select_all_units_of_same_type',
+                ['Ctrl-F9'] = 'debug_toggle_log_window',
+                ['Shift-5'] = 'append_group5',
+                ['Ctrl-Shift-F1'] = 'debug_toggle_pannels',
+                ['Ctrl-Shift-7'] = 'fac_group7',
+                ['Ctrl-8'] = 'set_group8',
+                ['Alt-LeftArrow'] = 'switch_skin_down',
+                ['Shift-4'] = 'append_group4',
+                ['Ctrl-C'] = 'select_all_onscreen',
+                ['Shift-PageUp'] = 'chat_line_up',
+                ['Ctrl-Alt-F1'] = 'toggle_notify_customiser',
+                ['Ctrl-Shift-T'] = 'track_unit_minimap',
+                ['1'] = 'group1',
+                ['0'] = 'group0',
+                ['3'] = 'group3',
+                ['2'] = 'group2',
+                ['Ctrl-Period'] = 'select_all_eng_onscreen',
+                ['4'] = 'group4',
+                ['7'] = 'group7',
+                ['6'] = 'group6',
+                ['9'] = 'group9',
+                ['Ctrl-H'] = 'select_all_factory_onscreen',
+                Pause = 'pause',
+                A = 'reclaim',
+                C = 'aa',
+                B = 'arties',
+                ['Ctrl-3'] = 'set_group3',
+                D = 'massfab',
+                G = 'templates',
+                ['Ctrl-Shift-9'] = 'fac_group9',
+                I = 'guard',
+                H = 'engystation',
+                Home = 'split_screen_enable',
+                J = 'mml',
+                M = 'upgrades',
+                L = 'fieldengy',
+                O = 'overcharge',
+                N = 'tml',
+                Q = 'patrol',
+                S = 'mass',
+                R = 'shields',
+                ['Alt-F2'] = 'debug_create_unit',
+                ['Ctrl-4'] = 'set_group4',
+                F7 = 'ping_attack',
+                V = 'torpedo',
+                ['Ctrl-S'] = 'select_naval',
+                ['Ctrl-1'] = 'set_group1',
+                Z = 'toggle_repeat_build',
+                ['Ctrl-Shift-2'] = 'fac_group2',
+                ['Shift-U'] = 'shift_attack',
+                ['Ctrl-B'] = 'select_engineers',
+                ['Ctrl-Alt-B'] = 'debug_bones',
+                ['Shift-Period'] = 'goto_engineer',
+                ['Ctrl-D'] = 'select_land',
+                ['Ctrl-Q'] = 'select_anti_air_fighters',
+                ['Ctrl-Alt-Z'] = 'debug_sally_shears',
+                F6 = 'ping_move',
+                F12 = 'show_objective_screen',
+                ['Ctrl-Shift-C'] = 'debug_copy_units',
+                F11 = 'toggle_disconnect_screen',
+                ['Ctrl-X'] = 'select_all',
+                ['Ctrl-Shift-S'] = 'select_nearest_naval_factory',
+                F10 = 'toggle_main_menu',
+                F1 = 'toggle_key_bindings',
+                NumStar = 'reset_game_speed',
+                ['Ctrl-Shift-1'] = 'fac_group1',
+                ['Ctrl-Shift-3'] = 'fac_group3',
+                F9 = 'show_network_stats',
+                ['Alt-Comma'] = 'select_commander',
+                ['Ctrl-Alt-V'] = 'debug_skeletons',
+                ['Ctrl-E'] = 'tog_defense',
+                Comma = 'goto_commander',
+                U = 'attack',
+                ['Alt-Period'] = 'select_idle_engineer',
+                ['Ctrl-A'] = 'select_air',
+                Num1 = 'create_build_template',
+                NumPlus = 'increase_game_speed',
+                Y = 'xp',
+                X = 'defense',
+                Period = 'cycle_engineers',
+                ['Ctrl-Shift-V'] = 'debug_paste_units',
+                K = 'mobileshield',
+                ['Shift-0'] = 'append_group0',
+                ['Ctrl-6'] = 'set_group6',
+                F = 'pgen',
+                ['Ctrl-Shift-6'] = 'fac_group6',
+                F3 = 'quick_save',
+                ['Shift-PageDown'] = 'chat_line_down',
+                ['Ctrl-V'] = 'cam_free',
+                ['Ctrl-Alt-N'] = 'debug_nodamage',
+                ['Ctrl-K'] = 'suicide',
+                ['Ctrl-T'] = 'debug_teleport',
+                ['Ctrl-R'] = 'tog_econ',
+                ['Shift-Tab'] = 'add_cam_position',
+                Esc = 'stop',
+                ['Ctrl-F'] = 'cap_frame',
+                F8 = 'ping_marker',
+                ['Ctrl-Alt-W'] = 'debug_dump_focus_ui_control',
+                NumSlash = 'show_fps',
+                ['Ctrl-Tab'] = 'rem_cam_position',
+                ['Ctrl-2'] = 'set_group2',
+                ['Shift-8'] = 'append_group8',
+                ['Alt-Delete'] = 'debug_destroy_units',
+                ['Shift-7'] = 'append_group7',
+                ['Ctrl-Shift-8'] = 'fac_group8',
+                ['Ctrl-Alt-D'] = 'debug_dump_ui_controls',
+                ['Ctrl-0'] = 'set_group0',
+                PageDown = 'chat_page_down',
+                ['Shift-6'] = 'append_group6',
+                ['Ctrl-Shift-5'] = 'fac_group5',
+                ['Shift-2'] = 'append_group2',
+                ['Ctrl-Shift-0'] = 'fac_group0',
+                ['Alt-RightArrow'] = 'switch_skin_up',
+                ['Shift-A'] = 'shift_reclaim',
+                ['Ctrl-Shift-A'] = 'select_nearest_air_factory',
+                F4 = 'toggle_diplomacy_screen',
+                ['Shift-9'] = 'append_group9',
+                NumMinus = 'decrease_game_speed',
+                W = 'builders',
+                ['Shift-I'] = 'shift_guard',
+                ['Ctrl-Shift-K'] = 'Kill_Selected_Units',
+                ['5'] = 'group5',
+                ['8'] = 'group8',
+                ['Ctrl-W'] = 'tog_military',
+                E = 'sensors',
+                T = 'tmd',
+                ['Alt-DownArrow'] = 'switch_layout_down',
+                ['Shift-Q'] = 'shift_patrol',
+                ['Alt-A'] = 'ACU',
+                ['Alt-S'] = 'Units'
+            },
+            LobbyOpt_HandicapMassGenFifteen = '0',
+            LobbyOpt_HandicapMassGenOne = '0',
+            LobbyPresets = {
+                {
+                    GameMods = { },
+                    Name = 'Setons',
+                    MapPath = '/maps/scmp_009/scmp_009_scenario.lua',
+                    PlayerOptions = { },
+                    MapName = "Seton's Clutch",
+                    GameOptions = {
+                        DisconnectionDelay02 = '90',
+                        CheatsEnabled = 'false',
+                        Score = 'no',
+                        RevealCivilians = 'Yes',
+                        RestrictedCategories = { },
+                        AllowObservers = false,
+                        Victory = 'demoralization',
+                        CivilianAlliance = 'enemy',
+                        CheatMult = '2.0',
+                        AIReplacement = 'Off',
+                        AutoTeams = 'tvsb',
+                        NavalExpansionsAllowed = '4',
+                        GameSpeed = 'normal',
+                        ManualUnitShare = 'all',
+                        FogOfWar = 'explored',
+                        LandExpansionsAllowed = '5',
+                        UnitCap = '1500',
+                        Timeouts = '-1',
+                        BuildMult = '2.0',
+                        ShareUnitCap = 'allies',
+                        Unranked = 'No',
+                        RandomMap = 'Off',
+                        OmniCheat = 'on',
+                        Share = 'FullShare',
+                        TMLRandom = '0',
+                        NoRushOption = 'Off',
+                        TeamSpawn = 'balanced',
+                        ScenarioFile = '/maps/scmp_009/scmp_009_scenario.lua',
+                        PrebuiltUnits = 'Off',
+                        TeamLock = 'locked',
+                        CommonArmy = 'Off'
+                    }
+                },
+                {
+                    GameMods = { },
+                    Name = 'lastGame',
+                    MapPath = '/maps/scmp_009/scmp_009_scenario.lua',
+                    PlayerOptions = { },
+                    MapName = "Seton's Clutch",
+                    GameOptions = {
+                        Share = 'FullShare',
+                        CheatsEnabled = 'false',
+                        Score = 'no',
+                        RevealCivilians = 'Yes',
+                        AllowObservers = false,
+                        OmniCheat = 'on',
+                        CivilianAlliance = 'enemy',
+                        CheatMult = '2.0',
+                        AIReplacement = 'Off',
+                        AutoTeams = 'lvsr',
+                        NavalExpansionsAllowed = '4',
+                        GameSpeed = 'normal',
+                        ShareUnitCap = 'allies',
+                        TMLRandom = '0',
+                        TeamLock = 'locked',
+                        PrebuiltUnits = 'Off',
+                        Timeouts = '3',
+                        BuildMult = '2.0',
+                        CommonArmy = 'Off',
+                        TeamSpawn = 'balanced_reveal_mirrored',
+                        RandomMap = 'Off',
+                        DisconnectionDelay02 = '90',
+                        FogOfWar = 'explored',
+                        Victory = 'demoralization',
+                        NoRushOption = 'Off',
+                        Unranked = 'No',
+                        ScenarioFile = '/maps/scmp_009/scmp_009_scenario.lua',
+                        UnitCap = '1500',
+                        LandExpansionsAllowed = '5',
+                        ManualUnitShare = 'all'
+                    }
+                }
+            },
+            LobbyOpt_KingOfTheHillHillCenter = 1,
+            LobbyOpt_ShareUnitCap = 'allies',
+            LobbyOpt_HandicapMaxHealthNine = '0',
+            LobbyOpt_AIPathingDebug = 'off',
+            LastColor = 5,
+            LobbyOpt_CivilianAlliance = 'enemy',
+            LobbyOpt_HandicapMaxHealthThree = '0',
+            LobbyOpt_Phantom_PaladinMarks = '1',
+            Notify_other_disabled = true,
+            mini_ui_minimap = {
+                top = 169,
+                bottom = 406,
+                height = 237,
+                right = 407,
+                left = 1,
+                width = 406
+            },
+            NetName = 'FAF_Mize',
+            console_font_color = 'FFbadbdb',
+            Lobby_Gen_Cap = 4,
+            EM_Settings = {
+                as_players = { }
+            },
+            scoreoverlay = true,
+            LobbyOpt_Timeouts = '-1',
+            LobbyOpt_ManualUnitShare = 'all',
+            LobbyHideDefaultOptions = 'false',
+            LobbyOpt_MySpecialKey1 = 'off',
+            LobbyOpt_PhantomMeteorDelayTime = '30',
+            LobbyOpt_GameSpeed = 'normal',
+            LobbyOpt_CheatMult = '2.0',
+            LobbyOpt_HandicapMaxHealthFour = '0',
+            Lobby_Team_Spawn = 2,
+            LobbyOpt_PrebuiltUnits = 'Off',
+            LobbyOpt_AIEndlessGameLoop = 'off',
+            LobbyOpt_KingOfTheHillHillSize = 2,
+            LobbyOpt_Title = '9oo+ the other setons is bugged join here',
+            LobbyOpt_OmniCheat = 'on',
+            UserKeyMapName = 'hotbuildKeyMap.lua',
+            LobbyOpt_Unranked = 'No',
+            LobbyOpt_HandicapMaxHealthFifteen = '0',
+            LobbyOpt_ShrinkingRate = 180,
+            LobbyOpt_HandicapMaxHealthSixteen = '0',
+            LobbyOpt_KingOfTheHillHillDelay = 2,
+            LobbyOpt_RevealCivilians = 'Yes',
+            LobbyOpt_PhantomSubseqMeteorDelayTime = '12',
+            LobbyOpt_HandicapMassGenTen = '0',
+            LobbyOpt_GameRules = '',
+            LastColorFAF = 13,
+            LobbyOpt_AIBuilderNameDebug = 'off',
+            WorldCamera_resource_icons = true,
+            LobbyOpt_HandicapMaxHealthEleven = '0',
+            ['Party-UI Settings'] = {
+                global = {
+                    modEnabled = true,
+                    doubleClickSelectsSimilarAssisters = true,
+                    xOffset = 345,
+                    yOffset = 50,
+                    rearrangeBottomPanes = true,
+                    factoriesStartWithRepeatOn = false,
+                    logEnabled = false,
+                    showEcontrol = true,
+                    useAlternativeStartSequence = true,
+                    startSplitScreen = true,
+                    alertUpgradeFinished = true,
+                    setGroundFireOnAttack = true,
+                    enableUnitLock = true,
+                    alertIdleFac = true,
+                    hideMenusOnStart = true,
+                    smallerContructionTabWhenSplitScreen = true,
+                    moveAvatarsToLeftSplitScreen = true,
+                    watchUnits = true,
+                    zoomPopSpeed = 0.029999999329448,
+                    playerColors = false,
+                    moveMainMenuToRight = true,
+                    zoomPopOverride = true,
+                    showEcontrolResources = true,
+                    showAdornments = true
+                }
+            },
+            LobbyOpt_Phantom_PhantNumber = '0',
+            LobbyOpt_AutoTeams = 'tvsb',
+            LobbyOpt_HandicapMaxHealthTwo = '0',
+            MiniMap_resource_icons = true,
+            LobbyOpt_HandicapMassGenEleven = '0',
+            LoadingFaction = 3,
+            LobbyOpt_HandicapMassGenThree = '0',
+            LastFaction = 3,
+            LobbyOpt_RestrictedCategories = { },
+            LobbyOpt_ShrinkingType = 'pseudorandom',
+            LobbyOpt_HandicapMassGenEight = '0',
+            AdvancedSelectionInfo = {
+                y = 83,
+                x = 211
+            },
+            chat_window = {
+                top = 498,
+                bottom = 768,
+                height = 270,
+                right = 400,
+                left = 0,
+                width = 400
+            },
+            range_RenderSelected = true,
+            LobbyOpt_TeamSpawn = 'balanced',
+            LobbyOpt_KingOfTheHillHillType = 1,
+            last_game_name = 'MIZER no NOOBZ',
+            LobbyOpt_AIGameenderStart = 20,
+            LobbyOpt_Phantom_DeathReveal = '1',
+            LobbyOpt_DisconnectionDelay02 = '90',
+            UserKeyActions = {
+                Shift_EXP = {
+                    order = 88,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("EXP")',
+                    category = 'Target priorities'
+                },
+                Fighters = {
+                    order = 93,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Fighters")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 5'] = {
+                    order = 15,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(5)",
+                    category = 'UI Party'
+                },
+                ['Select split group 2'] = {
+                    order = 12,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(2)",
+                    category = 'UI Party'
+                },
+                ['Split land units by role'] = {
+                    order = 34,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectNextLandUnitsGroupByRole()",
+                    category = 'UI Party'
+                },
+                ['Split selection into 7 groups'] = {
+                    order = 7,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(7)",
+                    category = 'UI Party'
+                },
+                ['Quick switch observer mode'] = {
+                    order = 35,
+                    action = "UI_Lua import('/mods/UI-Party/modules/observer.lua').QuickSwitch()",
+                    category = 'UI Party'
+                },
+                ['Select split group 8'] = {
+                    order = 18,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(8)",
+                    category = 'UI Party'
+                },
+                Toggle_snipe_default = {
+                    order = 103,
+                    action = 'UI_Lua import("/lua/ui/game/orders.lua").ToggleMode()',
+                    category = 'Target priorities'
+                },
+                ['Select next split group (shift)'] = {
+                    order = 23,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectNextGroup()",
+                    category = 'UI Party'
+                },
+                Shift_Toggle_snipe_default = {
+                    order = 104,
+                    action = 'UI_Lua import("/lua/ui/game/orders.lua").ToggleMode()',
+                    category = 'Target priorities'
+                },
+                ['Select onscreen support land units'] = {
+                    order = 33,
+                    action = "UI_Lua import('/mods/UI-Party/modules/selection.lua').SelectOnScreenSupportLandUnits()",
+                    category = 'UI Party'
+                },
+                target_Bships = {
+                    order = 105,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Bships")',
+                    category = 'Target priorities'
+                },
+                Shields = {
+                    order = 85,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Shields")',
+                    category = 'Target priorities'
+                },
+                ['Undo last queue order (shift)'] = {
+                    order = 29,
+                    action = "UI_Lua import('/lua/ui/game/construction.lua').UndoLastQueueOrder()",
+                    category = 'UI Party'
+                },
+                shift_reclaim = {
+                    order = 8,
+                    action = 'UI_Lua import("/lua/ui/game/gamemain.lua").SmartReclaim()',
+                    category = 'orders'
+                },
+                ['Select split group 1'] = {
+                    order = 11,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(1)",
+                    category = 'UI Party'
+                },
+                ['Shift Disperse Move'] = {
+                    order = 36,
+                    action = "UI_Lua import('/mods/Disperse Move/modules/dispersemove.lua').DisperseMove()",
+                    category = 'orders'
+                },
+                ['Reselect Split Units'] = {
+                    order = 25,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').ReselectSplitUnits()",
+                    category = 'UI Party'
+                },
+                SMD = {
+                    order = 95,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("SMD")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 4'] = {
+                    order = 14,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(4)",
+                    category = 'UI Party'
+                },
+                target_Destros = {
+                    order = 107,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Destros")',
+                    category = 'Target priorities'
+                },
+                Shift_Arty = {
+                    order = 92,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Arty")',
+                    category = 'Target priorities'
+                },
+                Shift_Mex = {
+                    order = 100,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Mex")',
+                    category = 'Target priorities'
+                },
+                ['Split selection into 9 groups'] = {
+                    order = 9,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(9)",
+                    category = 'UI Party'
+                },
+                ['Split selection into 2 groups'] = {
+                    order = 2,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(2)",
+                    category = 'UI Party'
+                },
+                Shift_Shields = {
+                    order = 86,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Shields")',
+                    category = 'Target priorities'
+                },
+                Shift_SMD = {
+                    order = 96,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("SMD")',
+                    category = 'Target priorities'
+                },
+                ['Select next split group'] = {
+                    order = 21,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectNextGroup()",
+                    category = 'UI Party'
+                },
+                ['Split selection into 8 groups'] = {
+                    order = 8,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(8)",
+                    category = 'UI Party'
+                },
+                Mex = {
+                    order = 99,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Mex")',
+                    category = 'Target priorities'
+                },
+                ['Shift Spread Move'] = {
+                    order = 36,
+                    action = "UI_Lua import('/mods/Spread Move/modules/spreadmove.lua').SpreadMove()",
+                    category = 'orders'
+                },
+                Default = {
+                    order = 75,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Default")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 3'] = {
+                    order = 13,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(3)",
+                    category = 'UI Party'
+                },
+                Shift_Gunship = {
+                    order = 98,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Gunship")',
+                    category = 'Target priorities'
+                },
+                Shift_PD = {
+                    order = 82,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("PD")',
+                    category = 'Target priorities'
+                },
+                Shift_target_Destros = {
+                    order = 108,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Destros")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 6'] = {
+                    order = 16,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(6)",
+                    category = 'UI Party'
+                },
+                ['Select prev split group (shift)'] = {
+                    order = 24,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectPrevGroup()",
+                    category = 'UI Party'
+                },
+                target_Naval = {
+                    order = 103,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Naval")',
+                    category = 'Target priorities'
+                },
+                Shift_target_Naval = {
+                    order = 104,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Naval")',
+                    category = 'Target priorities'
+                },
+                Shift_Units = {
+                    order = 84,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Units")',
+                    category = 'Target priorities'
+                },
+                ['Toggle Unit Lock'] = {
+                    order = 31,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitlock.lua').ToggleSelectedUnitsLock()",
+                    category = 'UI Party'
+                },
+                ['Split selection into 4 groups'] = {
+                    order = 4,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(4)",
+                    category = 'UI Party'
+                },
+                Power = {
+                    order = 79,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Power")',
+                    category = 'Target priorities'
+                },
+                ['Select similar onscreen units'] = {
+                    order = 30,
+                    action = "UI_Lua import('/mods/UI-Party/modules/selection.lua').SelectSimilarOnscreenUnits()",
+                    category = 'UI Party'
+                },
+                Shift_ACU = {
+                    order = 78,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("ACU")',
+                    category = 'Target priorities'
+                },
+                Arty = {
+                    order = 91,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Arty")',
+                    category = 'Target priorities'
+                },
+                Shift_Fighters = {
+                    order = 94,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Fighters")',
+                    category = 'Target priorities'
+                },
+                ['Select onscreen directfire land units'] = {
+                    order = 33,
+                    action = "UI_Lua import('/mods/UI-Party/modules/selection.lua').SelectOnScreenDirectFireLandUnits()",
+                    category = 'UI Party'
+                },
+                ['Notifications: Rightclick Cycle Notifications'] = {
+                    order = 999,
+                    action = "UI_Lua import('/mods/reminder/modules/notificationMain.lua').cycleNotificationsRightclick()",
+                    category = 'Mods'
+                },
+                ['Split selection into 6 groups'] = {
+                    order = 6,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(6)",
+                    category = 'UI Party'
+                },
+                Shift_target_Bships = {
+                    order = 106,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Bships")',
+                    category = 'Target priorities'
+                },
+                ['Split selection into 5 groups'] = {
+                    order = 5,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(5)",
+                    category = 'UI Party'
+                },
+                ['Notifications: Leftclick Cycle Notifications'] = {
+                    order = 998,
+                    action = "UI_Lua import('/mods/reminder/modules/notificationMain.lua').cycleNotificationsLeftclick()",
+                    category = 'Mods'
+                },
+                Units = {
+                    order = 83,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Units")',
+                    category = 'Target priorities'
+                },
+                dev_cycle_context_based_templates = {
+                    order = 77,
+                    action = 'UI_Lua import("/mods/faf-capping/context-based-templates.lua").Cycle()',
+                    category = 'FAForever Develop'
+                },
+                ['Undo last queue order'] = {
+                    order = 28,
+                    action = "UI_Lua import('/lua/ui/game/construction.lua').UndoLastQueueOrder()",
+                    category = 'UI Party'
+                },
+                ['Reselect Ordered Split Units'] = {
+                    order = 26,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').ReselectOrderedSplitUnits()",
+                    category = 'UI Party'
+                },
+                reclaim = {
+                    order = 7,
+                    action = 'UI_Lua import("/lua/ui/game/gamemain.lua").SmartReclaim()',
+                    category = 'orders'
+                },
+                ['Disperse Move'] = {
+                    order = 35,
+                    action = "UI_Lua import('/mods/Disperse Move/modules/dispersemove.lua').DisperseMove()",
+                    category = 'orders'
+                },
+                ACU = {
+                    order = 77,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("ACU")',
+                    category = 'Target priorities'
+                },
+                toggle_reclaim_labels = {
+                    action = 'UI_Lua import("/lua/ui/game/gamemain.lua").ToggleSmartReclaim()',
+                    category = 'ui'
+                },
+                ['Notifications: Rightclick Last Notification'] = {
+                    order = 997,
+                    action = "UI_Lua import('/mods/reminder/modules/notificationMain.lua').rightclickLast()",
+                    category = 'Mods'
+                },
+                PD = {
+                    order = 81,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("PD")',
+                    category = 'Target priorities'
+                },
+                Shift_Default = {
+                    order = 76,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Default")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 10'] = {
+                    order = 20,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(10)",
+                    category = 'UI Party'
+                },
+                Gunship = {
+                    order = 97,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Gunship")',
+                    category = 'Target priorities'
+                },
+                Shift_Power = {
+                    order = 80,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Power")',
+                    category = 'Target priorities'
+                },
+                EXP = {
+                    order = 87,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("EXP")',
+                    category = 'Target priorities'
+                },
+                ['Notifications: Leftclick Last Notification'] = {
+                    order = 996,
+                    action = "UI_Lua import('/mods/reminder/modules/notificationMain.lua').leftclickLast()",
+                    category = 'Mods'
+                },
+                ['Select prev split group'] = {
+                    order = 22,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectPrevGroup()",
+                    category = 'UI Party'
+                },
+                Shift_Engies = {
+                    order = 90,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Engies")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 9'] = {
+                    order = 19,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(9)",
+                    category = 'UI Party'
+                },
+                Engies = {
+                    order = 89,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Engies")',
+                    category = 'Target priorities'
+                },
+                ['Split selection into 10 groups'] = {
+                    order = 10,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(10)",
+                    category = 'UI Party'
+                },
+                Shift_Snipe = {
+                    order = 102,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Snipe")',
+                    category = 'Target priorities'
+                },
+                ['Select split group 7'] = {
+                    order = 17,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SelectGroup(7)",
+                    category = 'UI Party'
+                },
+                select_nearest_idle_eng_not_acu = {
+                    order = 35,
+                    action = 'UI_SelectByCategory +nearest +idle ENGINEER',
+                    category = 'selection'
+                },
+                ['Split selection into 3 groups'] = {
+                    order = 3,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitsplit.lua').SplitGroups(3)",
+                    category = 'UI Party'
+                },
+                ['Disable UI-Party'] = {
+                    order = 1,
+                    action = "UI_Lua import('/mods/UI-Party/modules/UI-Party.lua').ToggleEnabled()",
+                    category = 'UI Party'
+                },
+                ['Clear queue except for current production'] = {
+                    order = 27,
+                    action = "UI_Lua import('/lua/ui/game/construction.lua').StopAllExceptCurrentProduction()",
+                    category = 'UI Party'
+                },
+                Snipe = {
+                    order = 101,
+                    action = 'UI_Lua import("/lua/keymap/misckeyactions.lua").SetWeaponPrioritiesHotkey("Snipe")',
+                    category = 'Target priorities'
+                },
+                ['Notifications: Add command finished notification'] = {
+                    order = 1020,
+                    action = "UI_Lua import('/mods/reminder/resources/notifications/observer/obs_commandDone.lua').onAddCommand()",
+                    category = 'Mods'
+                },
+                ['Select all locked units'] = {
+                    order = 32,
+                    action = "UI_Lua import('/mods/UI-Party/modules/unitlock.lua').SelectAllLockedUnits()",
+                    category = 'UI Party'
+                },
+                ['Open HBO editor'] = {
+                    order = 404,
+                    action = 'UI_Lua import("/mods/HBO/modules/views/view.lua").init()',
+                    category = 'HotBuild Overhaul Editor'
+                },
+                ['Spread Move'] = {
+                    order = 35,
+                    action = "UI_Lua import('/mods/Spread Move/modules/spreadmove.lua').SpreadMove()",
+                    category = 'orders'
+                },
+                dev_cycle_context_based_templates_shift = {
+                    order = 77,
+                    action = 'UI_Lua import("/mods/faf-capping/context-based-templates.lua").Cycle()',
+                    category = 'FAForever Develop'
+                }
+            },
+            LobbyOpt_HandicapMaxHealthThirteen = '0',
+            LobbyOpt_Quality = 93.375,
+            LobbyOpt_KingOfTheHillHillScore = 3,
+            Name = 'FAF_Mize',
+            LobbyOpt_RandomMap = 'Off',
+            console_size = 5,
+            LobbyOpt_CheatsEnabled = 'false',
+            LobbyOpt_AIOverwhelmIncrease = 0.025000000372529,
+            Notify_acus_disabled = false,
+            activeFilters = {
+                omni = true,
+                defense = true,
+                antinavy = true,
+                indirectfire = true,
+                miscellaneous = true,
+                radar = true,
+                selection = true,
+                buildpreview = true,
+                sonar = true,
+                antiair = true,
+                counterintel = true,
+                directfire = true,
+                rollover = true
+            },
+            Notify_Messages_ESC = {
+                other = {
+                    nuke = '\\u4E\\u75\\u6B\\u65\\u20\\u53\\u69\\u6C\\u6F\\u20\\u63\\u6F\\u6E\\u73\\u74\\u72\\u75\\u63\\u74\\u69\\u6F\\u6E',
+                    arty = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u41\\u72\\u74\\u69\\u6C\\u6C\\u65\\u72\\u79\\u20\\u63\\u6F\\u6E\\u73\\u74\\u72\\u75\\u63\\u74\\u69\\u6F\\u6E'
+                },
+                uef = {
+                    HeavyAntiMatterCannon = '\\u47\\u75\\u6E\\u20\\u28\\u44\\u61\\u6D\\u61\\u67\\u65\\u26\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    Shield = '\\u53\\u68\\u69\\u65\\u6C\\u64',
+                    AdvancedEngineering = '\\u54\\u32',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    RightPod = '\\u52\\u69\\u67\\u68\\u74\\u20\\u44\\u72\\u6F\\u6E\\u65',
+                    T3Engineering = '\\u54\\u33',
+                    TacticalMissile = '\\u54\\u61\\u63\\u74\\u69\\u63\\u61\\u6C\\u20\\u4D\\u69\\u73\\u73\\u69\\u6C\\u65',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    TacticalNukeMissile = '\\u54\\u61\\u63\\u74\\u69\\u63\\u61\\u6C\\u20\\u4E\\u75\\u6B\\u65',
+                    DamageStabilization = '\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    ShieldGeneratorField = '\\u53\\u68\\u69\\u65\\u6C\\u64\\u20\\u46\\u69\\u65\\u6C\\u64',
+                    LeftPod = '\\u4C\\u65\\u66\\u74\\u20\\u44\\u72\\u6F\\u6E\\u65'
+                },
+                tech = {
+                    researchnavaltech3 = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u4E\\u61\\u76\\u61\\u6C\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchlandtech2 = '\\u54\\u65\\u63\\u68\\u20\\u32\\u20\\u4C\\u61\\u6E\\u64\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchairtech2 = '\\u54\\u65\\u63\\u68\\u20\\u32\\u20\\u41\\u69\\u72\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchlandtech3 = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u4C\\u61\\u6E\\u64\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchairtech3 = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u41\\u69\\u72\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchnavaltech2 = '\\u54\\u65\\u63\\u68\\u20\\u32\\u20\\u4E\\u61\\u76\\u61\\u6C\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65'
+                },
+                nomads = {
+                    Capacitor = '\\u43\\u61\\u70\\u61\\u63\\u69\\u74\\u6F\\u72',
+                    IntelProbeAdv = '\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u49\\u6E\\u74\\u65\\u6C\\u20\\u50\\u72\\u6F\\u62\\u65',
+                    RapidRepair = '\\u52\\u61\\u70\\u69\\u64\\u20\\u52\\u65\\u70\\u61\\u69\\u72',
+                    OrbitalBombardment = '\\u4F\\u72\\u62\\u69\\u74\\u61\\u6C\\u20\\u42\\u6F\\u6D\\u62\\u61\\u72\\u64\\u6D\\u65\\u6E\\u74',
+                    AdvancedEngineering = '\\u54\\u32',
+                    MovementSpeedIncrease = '\\u4C\\u6F\\u63\\u6F\\u6D\\u6F\\u74\\u6F\\u72',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    DoubleGuns = '\\u53\\u65\\u63\\u6F\\u6E\\u64\\u20\\u47\\u75\\u6E',
+                    ResourceAllocationAdvanced = '\\u41\\u52\\u41\\u53',
+                    IntelProbe = '\\u49\\u6E\\u74\\u65\\u6C\\u20\\u50\\u72\\u6F\\u62\\u65',
+                    GunUpgrade = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u26\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    T3Engineering = '\\u54\\u33',
+                    PowerArmor = '\\u50\\u6F\\u77\\u65\\u72\\u20\\u41\\u72\\u6D\\u6F\\u72'
+                },
+                experimentals = {
+                    xeb2402 = '\\u4E\\u6F\\u76\\u61\\u78\\u20\\u53\\u61\\u74\\u65\\u6C\\u6C\\u69\\u74\\u65\\u20\\u53\\u74\\u61\\u74\\u69\\u6F\\u6E',
+                    ues0401 = '\\u41\\u74\\u6C\\u61\\u6E\\u74\\u69\\u73',
+                    ual0401 = '\\u47\\u61\\u6C\\u61\\u63\\u74\\u69\\u63\\u20\\u43\\u6F\\u6C\\u6F\\u73\\u73\\u75\\u73',
+                    url0402 = '\\u4D\\u6F\\u6E\\u6B\\u65\\u79\\u6C\\u6F\\u72\\u64',
+                    ueb2401 = '\\u4D\\u61\\u76\\u6F\\u72',
+                    uaa0310 = '\\u43\\u7A\\u61\\u72',
+                    uel0401 = '\\u46\\u61\\u74\\u62\\u6F\\u79',
+                    xsb2401 = '\\u59\\u6F\\u6C\\u6F\\u6E\\u61\\u20\\u4F\\u73\\u73',
+                    xsl0401 = '\\u59\\u74\\u68\\u6F\\u74\\u68\\u61',
+                    uas0401 = '\\u54\\u65\\u6D\\u70\\u65\\u73\\u74',
+                    xsa0402 = '\\u41\\u68\\u77\\u61\\u73\\u73\\u61',
+                    xab1401 = '\\u50\\u61\\u72\\u61\\u67\\u6F\\u6E',
+                    ura0401 = '\\u53\\u6F\\u75\\u6C\\u72\\u69\\u70\\u70\\u65\\u72',
+                    xrl0403 = '\\u4D\\u65\\u67\\u61\\u6C\\u69\\u74\\u68',
+                    url0401 = '\\u53\\u63\\u61\\u74\\u68\\u69\\u73'
+                },
+                seraphim = {
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    RegenAura = '\\u52\\u65\\u67\\u65\\u6E\\u20\\u41\\u75\\u72\\u61',
+                    AdvancedEngineering = '\\u54\\u32',
+                    T3Engineering = '\\u54\\u33',
+                    Missile = '\\u54\\u61\\u63\\u74\\u69\\u63\\u61\\u6C\\u20\\u4D\\u69\\u73\\u73\\u69\\u6C\\u65',
+                    DamageStabilizationAdvanced = '\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    ResourceAllocationAdvanced = '\\u41\\u52\\u41\\u53',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    BlastAttack = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u6C\\u61\\u73\\u68\\u29',
+                    DamageStabilization = '\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    AdvancedRegenAura = '\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u52\\u65\\u67\\u65\\u6E\\u20\\u41\\u75\\u72\\u61',
+                    RateOfFire = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u26\\u52\\u61\\u6E\\u67\\u65\\u29'
+                },
+                cybran = {
+                    CoolingUpgrade = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u26\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    AdvancedEngineering = '\\u54\\u32',
+                    CloakingGenerator = '\\u43\\u6C\\u6F\\u61\\u6B\\u69\\u6E\\u67',
+                    MicrowaveLaserGenerator = '\\u4C\\u61\\u73\\u65\\u72',
+                    StealthGenerator = '\\u53\\u74\\u65\\u61\\u6C\\u74\\u68',
+                    FAF_SelfRepairSystem = '\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    NaniteTorpedoTube = '\\u54\\u6F\\u72\\u70\\u65\\u64\\u6F',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    T3Engineering = '\\u54\\u33',
+                    SelfRepairSystem = '\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72'
+                },
+                aeon = {
+                    AdvancedCrysalisBeam = '\\u47\\u75\\u6E\\u20\\u28\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    ShieldHeavy = '\\u53\\u68\\u69\\u65\\u6C\\u64\\u20\\u48\\u65\\u61\\u76\\u79',
+                    Shield = '\\u53\\u68\\u69\\u65\\u6C\\u64',
+                    AdvancedEngineering = '\\u54\\u32',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    ChronoDampener = '\\u43\\u68\\u72\\u6F\\u6E\\u6F\\u20\\u44\\u61\\u6D\\u70\\u65\\u6E\\u65\\u72',
+                    ResourceAllocationAdvanced = '\\u41\\u52\\u41\\u53',
+                    HeatSink = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u29',
+                    CrysalisBeam = '\\u47\\u75\\u6E\\u20\\u28\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    EnhancedSensors = '\\u53\\u65\\u6E\\u73\\u6F\\u72\\u73',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    T3Engineering = '\\u54\\u33',
+                    FAF_CrysalisBeamAdvanced = '\\u47\\u75\\u6E\\u20\\u28\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u52\\u61\\u6E\\u67\\u65\\u29'
+                }
+            },
+            LobbyOpt_KingOfTheHillHillUnit = 3,
+            Notify_Messages = {
+                other = {
+                    nuke = 'Nuke Silo construction',
+                    arty = 'Tech 3 Artillery construction'
+                },
+                uef = {
+                    HeavyAntiMatterCannon = 'Gun (Damage&Range)',
+                    Shield = 'Shield',
+                    AdvancedEngineering = 'T2',
+                    Teleporter = 'Teleporter',
+                    RightPod = 'Right Drone',
+                    T3Engineering = 'T3',
+                    TacticalMissile = 'Tactical Missile',
+                    ResourceAllocation = 'RAS',
+                    TacticalNukeMissile = 'Tactical Nuke',
+                    DamageStabilization = 'Nano-Repair',
+                    ShieldGeneratorField = 'Shield Field',
+                    LeftPod = 'Left Drone'
+                },
+                tech = {
+                    researchnavaltech3 = 'Tech 3 Naval HQ upgrade',
+                    researchnavaltech2 = 'Tech 2 Naval HQ upgrade',
+                    researchairtech2 = 'Tech 2 Air HQ upgrade',
+                    researchlandtech3 = 'Tech 3 Land HQ upgrade',
+                    researchairtech3 = 'Tech 3 Air HQ upgrade',
+                    researchlandtech2 = 'Tech 2 Land HQ upgrade'
+                },
+                nomads = {
+                    Capacitor = 'Capacitor',
+                    IntelProbeAdv = 'Advanced Intel Probe',
+                    RapidRepair = 'Rapid Repair',
+                    OrbitalBombardment = 'Orbital Bombardment',
+                    AdvancedEngineering = 'T2',
+                    MovementSpeedIncrease = 'Locomotor',
+                    Teleporter = 'Teleporter',
+                    ResourceAllocation = 'RAS',
+                    DoubleGuns = 'Second Gun',
+                    ResourceAllocationAdvanced = 'ARAS',
+                    IntelProbe = 'Intel Probe',
+                    GunUpgrade = 'Gun (Speed&Range)',
+                    T3Engineering = 'T3',
+                    PowerArmor = 'Power Armor'
+                },
+                experimentals = {
+                    xeb2402 = 'Novax Satellite Station',
+                    ues0401 = 'Atlantis',
+                    ual0401 = 'Galactic Colossus',
+                    url0402 = 'Monkeylord',
+                    ueb2401 = 'Mavor',
+                    uaa0310 = 'Czar',
+                    uel0401 = 'Fatboy',
+                    xsb2401 = 'Yolona Oss',
+                    xsl0401 = 'Ythotha',
+                    uas0401 = 'Tempest',
+                    xsa0402 = 'Ahwassa',
+                    xab1401 = 'Paragon',
+                    ura0401 = 'Soulripper',
+                    xrl0403 = 'Megalith',
+                    url0401 = 'Scathis'
+                },
+                seraphim = {
+                    Teleporter = 'Teleporter',
+                    RegenAura = 'Regen Aura',
+                    AdvancedEngineering = 'T2',
+                    T3Engineering = 'T3',
+                    Missile = 'Tactical Missile',
+                    DamageStabilizationAdvanced = 'Advanced Nano-Repair',
+                    ResourceAllocationAdvanced = 'ARAS',
+                    ResourceAllocation = 'RAS',
+                    BlastAttack = 'Gun (Splash)',
+                    DamageStabilization = 'Nano-Repair',
+                    AdvancedRegenAura = 'Advanced Regen Aura',
+                    RateOfFire = 'Gun (Speed&Range)'
+                },
+                cybran = {
+                    CoolingUpgrade = 'Gun (Speed&Range)',
+                    AdvancedEngineering = 'T2',
+                    CloakingGenerator = 'Cloaking',
+                    StealthGenerator = 'Stealth',
+                    ResourceAllocation = 'RAS',
+                    MicrowaveLaserGenerator = 'Laser',
+                    Teleporter = 'Teleporter',
+                    T3Engineering = 'T3',
+                    NaniteTorpedoTube = 'Torpedo'
+                },
+                aeon = {
+                    ShieldHeavy = 'Shield Heavy',
+                    Shield = 'Shield',
+                    AdvancedEngineering = 'T2',
+                    ChronoDampener = 'Chrono Dampener',
+                    ResourceAllocationAdvanced = 'ARAS',
+                    CrysalisBeam = 'Gun (Range)',
+                    HeatSink = 'Gun (Speed)',
+                    EnhancedSensors = 'Sensors',
+                    Teleporter = 'Teleporter',
+                    T3Engineering = 'T3',
+                    ResourceAllocation = 'RAS'
+                }
+            },
+            build_templates = {
+                {
+                    templateData = {
+                        6,
+                        6,
+                        {
+                            'uab1104',
+                            20319,
+                            0,
+                            0
+                        },
+                        {
+                            'uab1104',
+                            20480,
+                            0,
+                            -4
+                        },
+                        {
+                            'uab1104',
+                            20615,
+                            -4,
+                            -4
+                        },
+                        {
+                            'uab1104',
+                            20782,
+                            -4,
+                            0
+                        }
+                    },
+                    name = 'Mass Fabricator',
+                    icon = 'uab1104'
+                },
+                {
+                    templateData = {
+                        32,
+                        20,
+                        {
+                            'urb0101',
+                            116,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            620,
+                            -7,
+                            3
+                        },
+                        {
+                            'urb1101',
+                            860,
+                            -9,
+                            3
+                        },
+                        {
+                            'urb1101',
+                            988,
+                            -15,
+                            5
+                        },
+                        {
+                            'urb1101',
+                            1116,
+                            -13,
+                            5
+                        },
+                        {
+                            'urb0101',
+                            1251,
+                            -8,
+                            -2
+                        },
+                        {
+                            'urb1101',
+                            1554,
+                            -5,
+                            5
+                        },
+                        {
+                            'urb1101',
+                            1681,
+                            -7,
+                            5
+                        },
+                        {
+                            'urb0101',
+                            1808,
+                            -16,
+                            0
+                        },
+                        {
+                            'urb0101',
+                            2111,
+                            -22,
+                            8
+                        },
+                        {
+                            'urb0101',
+                            2414,
+                            -14,
+                            10
+                        },
+                        {
+                            'urb0101',
+                            2660,
+                            -6,
+                            10
+                        },
+                        {
+                            'urb0101',
+                            2832,
+                            2,
+                            8
+                        }
+                    },
+                    name = 'Land Factory',
+                    icon = 'urb0101'
+                },
+                {
+                    templateData = {
+                        30,
+                        26,
+                        {
+                            'urb0101',
+                            76,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            566,
+                            5,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            773,
+                            7,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            906,
+                            15,
+                            1
+                        },
+                        {
+                            'urb1101',
+                            1033,
+                            13,
+                            1
+                        },
+                        {
+                            'urb0101',
+                            1160,
+                            8,
+                            -8
+                        },
+                        {
+                            'urb1101',
+                            1463,
+                            11,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            1591,
+                            13,
+                            -3
+                        },
+                        {
+                            'urb0101',
+                            1719,
+                            16,
+                            -8
+                        },
+                        {
+                            'urb0101',
+                            2022,
+                            22,
+                            0
+                        },
+                        {
+                            'urb1202',
+                            2232,
+                            3,
+                            -5
+                        },
+                        {
+                            'urb1202',
+                            2240,
+                            17,
+                            1
+                        },
+                        {
+                            'urb0101',
+                            2358,
+                            14,
+                            6
+                        },
+                        {
+                            'urb0101',
+                            2632,
+                            0,
+                            -10
+                        },
+                        {
+                            'urb0101',
+                            2934,
+                            6,
+                            8
+                        }
+                    },
+                    name = 'Land Factory',
+                    icon = 'urb0101'
+                },
+                {
+                    templateData = {
+                        30,
+                        26,
+                        {
+                            'urb0101',
+                            76,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            566,
+                            5,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            773,
+                            7,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            906,
+                            15,
+                            1
+                        },
+                        {
+                            'urb1101',
+                            1033,
+                            13,
+                            1
+                        },
+                        {
+                            'urb0101',
+                            1160,
+                            8,
+                            -8
+                        },
+                        {
+                            'urb1101',
+                            1463,
+                            11,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            1591,
+                            13,
+                            -3
+                        },
+                        {
+                            'urb0101',
+                            1719,
+                            16,
+                            -8
+                        },
+                        {
+                            'urb0101',
+                            2022,
+                            22,
+                            0
+                        },
+                        {
+                            'urb1202',
+                            2232,
+                            3,
+                            -5
+                        },
+                        {
+                            'urb1202',
+                            2240,
+                            17,
+                            1
+                        },
+                        {
+                            'urb0101',
+                            2358,
+                            14,
+                            6
+                        },
+                        {
+                            'urb0101',
+                            2632,
+                            0,
+                            -10
+                        },
+                        {
+                            'urb0101',
+                            2934,
+                            6,
+                            8
+                        }
+                    },
+                    name = 'Land Factory',
+                    icon = 'urb0101'
+                },
+                {
+                    templateData = {
+                        30,
+                        26,
+                        {
+                            'urb0101',
+                            76,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            566,
+                            5,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            773,
+                            7,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            906,
+                            15,
+                            1
+                        },
+                        {
+                            'urb1101',
+                            1033,
+                            13,
+                            1
+                        },
+                        {
+                            'urb0101',
+                            1160,
+                            8,
+                            -8
+                        },
+                        {
+                            'urb1101',
+                            1463,
+                            11,
+                            -3
+                        },
+                        {
+                            'urb1101',
+                            1591,
+                            13,
+                            -3
+                        },
+                        {
+                            'urb0101',
+                            1719,
+                            16,
+                            -8
+                        },
+                        {
+                            'urb0101',
+                            2022,
+                            22,
+                            0
+                        },
+                        {
+                            'urb0101',
+                            2358,
+                            14,
+                            6
+                        },
+                        {
+                            'urb0101',
+                            2632,
+                            0,
+                            -10
+                        },
+                        {
+                            'urb0101',
+                            2934,
+                            6,
+                            8
+                        }
+                    },
+                    name = 'Land Factory',
+                    icon = 'urb0101'
+                },
+                {
+                    templateData = {
+                        56,
+                        56,
+                        {
+                            'urb0102',
+                            7688,
+                            0,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            7869,
+                            8,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            8153,
+                            0,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            8259,
+                            -8,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            8434,
+                            -16,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            8579,
+                            -8,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            8899,
+                            8,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            9019,
+                            16,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            9218,
+                            0,
+                            32
+                        },
+                        {
+                            'urb0102',
+                            9512,
+                            -16,
+                            32
+                        },
+                        {
+                            'urb0102',
+                            9721,
+                            -24,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            9910,
+                            -8,
+                            40
+                        },
+                        {
+                            'urb0102',
+                            10125,
+                            8,
+                            40
+                        },
+                        {
+                            'urb0102',
+                            10317,
+                            16,
+                            32
+                        },
+                        {
+                            'urb0102',
+                            10609,
+                            24,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            11072,
+                            0,
+                            48
+                        }
+                    },
+                    name = 'Air Factory',
+                    icon = 'urb0102'
+                },
+                {
+                    templateData = {
+                        64,
+                        72,
+                        {
+                            'urb0102',
+                            3563,
+                            0,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            3896,
+                            8,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            4101,
+                            16,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            4398,
+                            24,
+                            -8
+                        },
+                        {
+                            'urb0102',
+                            4605,
+                            16,
+                            -16
+                        },
+                        {
+                            'urb0102',
+                            10610,
+                            -8,
+                            -8
+                        },
+                        {
+                            'urb0102',
+                            10796,
+                            -16,
+                            -16
+                        },
+                        {
+                            'urb0102',
+                            11429,
+                            -8,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            11704,
+                            -24,
+                            -24
+                        },
+                        {
+                            'urb0102',
+                            11823,
+                            -16,
+                            -32
+                        },
+                        {
+                            'urb0102',
+                            12982,
+                            -8,
+                            -24
+                        },
+                        {
+                            'urb0102',
+                            13805,
+                            32,
+                            -16
+                        },
+                        {
+                            'urb0102',
+                            14495,
+                            32,
+                            -32
+                        },
+                        {
+                            'urb0102',
+                            14621,
+                            24,
+                            -40
+                        },
+                        {
+                            'urb0102',
+                            15024,
+                            0,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            15104,
+                            8,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            15217,
+                            16,
+                            16
+                        }
+                    },
+                    name = 'Air Factory',
+                    icon = 'urb0102'
+                },
+                {
+                    templateData = {
+                        40,
+                        40,
+                        {
+                            'urb1301',
+                            22904,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            23160,
+                            8,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            23578,
+                            0,
+                            -16
+                        },
+                        {
+                            'urb1301',
+                            24025,
+                            -8,
+                            -24
+                        },
+                        {
+                            'urb1301',
+                            24688,
+                            -16,
+                            -16
+                        },
+                        {
+                            'urb1301',
+                            25584,
+                            -24,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            26056,
+                            -16,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            26466,
+                            -8,
+                            8
+                        },
+                        {
+                            'urb1301',
+                            32635,
+                            -8,
+                            -8
+                        }
+                    },
+                    name = 'Power Generator',
+                    icon = 'urb1301'
+                },
+                {
+                    templateData = {
+                        56,
+                        56,
+                        {
+                            'urb1301',
+                            10320,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            11316,
+                            8,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            12197,
+                            8,
+                            8
+                        },
+                        {
+                            'urb1301',
+                            12552,
+                            16,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            12723,
+                            -8,
+                            8
+                        },
+                        {
+                            'urb1301',
+                            13021,
+                            -8,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            14422,
+                            24,
+                            -24
+                        },
+                        {
+                            'urb1301',
+                            18354,
+                            -16,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            19507,
+                            -16,
+                            -16
+                        },
+                        {
+                            'urb1301',
+                            20478,
+                            -24,
+                            -24
+                        },
+                        {
+                            'urb1301',
+                            21307,
+                            -24,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            25998,
+                            16,
+                            -32
+                        },
+                        {
+                            'urb1301',
+                            26506,
+                            0,
+                            16
+                        }
+                    },
+                    name = 'Power Generator',
+                    icon = 'urb1301'
+                },
+                {
+                    templateData = {
+                        50,
+                        16,
+                        {
+                            'urb1104',
+                            34781,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            34871,
+                            2,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            34910,
+                            4,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            34944,
+                            6,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            34974,
+                            8,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35011,
+                            10,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35052,
+                            10,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            35086,
+                            10,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            35119,
+                            10,
+                            -6
+                        },
+                        {
+                            'urb1104',
+                            35169,
+                            10,
+                            -8
+                        },
+                        {
+                            'urb1104',
+                            35213,
+                            10,
+                            -10
+                        },
+                        {
+                            'urb1104',
+                            35228,
+                            -2,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            35277,
+                            8,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            35336,
+                            6,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            35370,
+                            4,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            35401,
+                            2,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            35447,
+                            0,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            35493,
+                            -2,
+                            -10
+                        },
+                        {
+                            'urb1104',
+                            35531,
+                            -2,
+                            -8
+                        },
+                        {
+                            'urb1104',
+                            35565,
+                            -2,
+                            -6
+                        },
+                        {
+                            'urb1104',
+                            35611,
+                            -2,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            35663,
+                            -2,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35707,
+                            12,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35830,
+                            14,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35871,
+                            16,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35906,
+                            18,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35955,
+                            20,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            35990,
+                            22,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            36036,
+                            22,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            36073,
+                            22,
+                            -6
+                        },
+                        {
+                            'urb1104',
+                            36108,
+                            22,
+                            -8
+                        },
+                        {
+                            'urb1104',
+                            36147,
+                            22,
+                            -10
+                        },
+                        {
+                            'urb1104',
+                            36200,
+                            20,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36244,
+                            18,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36275,
+                            16,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36305,
+                            14,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36340,
+                            12,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36377,
+                            24,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36420,
+                            26,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36475,
+                            28,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36536,
+                            30,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            36600,
+                            32,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            37828,
+                            34,
+                            -10
+                        },
+                        {
+                            'urb1104',
+                            37854,
+                            34,
+                            -8
+                        },
+                        {
+                            'urb1104',
+                            37880,
+                            34,
+                            -6
+                        },
+                        {
+                            'urb1104',
+                            37911,
+                            34,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            37948,
+                            34,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            37995,
+                            32,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38043,
+                            30,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38080,
+                            28,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38112,
+                            26,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38149,
+                            24,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38195,
+                            36,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38240,
+                            38,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38298,
+                            40,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38351,
+                            42,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38420,
+                            44,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            38499,
+                            46,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            38539,
+                            46,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            38578,
+                            46,
+                            -6
+                        },
+                        {
+                            'urb1104',
+                            38619,
+                            46,
+                            -8
+                        },
+                        {
+                            'urb1104',
+                            38658,
+                            46,
+                            -10
+                        },
+                        {
+                            'urb1104',
+                            38691,
+                            36,
+                            -13
+                        },
+                        {
+                            'urb1104',
+                            38716,
+                            46,
+                            -12
+                        },
+                        {
+                            'urb1104',
+                            38770,
+                            44,
+                            -14
+                        },
+                        {
+                            'urb1104',
+                            38825,
+                            42,
+                            -14
+                        },
+                        {
+                            'urb1104',
+                            38862,
+                            40,
+                            -13
+                        },
+                        {
+                            'urb1104',
+                            38893,
+                            38,
+                            -13
+                        }
+                    },
+                    name = 'Mass Fabricator',
+                    icon = 'urb1104'
+                },
+                {
+                    templateData = {
+                        10,
+                        10,
+                        {
+                            'urb1104',
+                            12792,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            12919,
+                            2,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            13026,
+                            0,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            13196,
+                            -2,
+                            -6
+                        },
+                        {
+                            'urb1104',
+                            13250,
+                            -4,
+                            -4
+                        },
+                        {
+                            'urb1104',
+                            13303,
+                            -6,
+                            -2
+                        },
+                        {
+                            'urb1104',
+                            13408,
+                            -4,
+                            0
+                        },
+                        {
+                            'urb1104',
+                            13462,
+                            -2,
+                            2
+                        }
+                    },
+                    name = 'Mass Fabricator',
+                    icon = 'urb1104'
+                },
+                {
+                    templateData = {
+                        64,
+                        56,
+                        {
+                            'urb1301',
+                            7804,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            11464,
+                            16,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            12056,
+                            8,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            12595,
+                            24,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            13198,
+                            24,
+                            8
+                        },
+                        {
+                            'urb1301',
+                            13927,
+                            32,
+                            16
+                        },
+                        {
+                            'urb1301',
+                            14522,
+                            24,
+                            24
+                        },
+                        {
+                            'urb1301',
+                            15061,
+                            32,
+                            32
+                        },
+                        {
+                            'urb1301',
+                            15663,
+                            40,
+                            24
+                        },
+                        {
+                            'urb1301',
+                            16279,
+                            0,
+                            -16
+                        },
+                        {
+                            'urb1301',
+                            16539,
+                            -8,
+                            -8
+                        },
+                        {
+                            'urb1301',
+                            16770,
+                            -16,
+                            0
+                        },
+                        {
+                            'urb1301',
+                            17020,
+                            -8,
+                            8
+                        },
+                        {
+                            'urb1301',
+                            17219,
+                            -16,
+                            16
+                        },
+                        {
+                            'urb1301',
+                            17454,
+                            -8,
+                            24
+                        },
+                        {
+                            'urb1301',
+                            17713,
+                            0,
+                            32
+                        }
+                    },
+                    name = 'Power Generator',
+                    icon = 'urb1301'
+                },
+                {
+                    templateData = {
+                        64,
+                        72,
+                        {
+                            'urb0102',
+                            10129,
+                            0,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            10227,
+                            -8,
+                            -8
+                        },
+                        {
+                            'urb0102',
+                            10387,
+                            0,
+                            -16
+                        },
+                        {
+                            'urb0102',
+                            10560,
+                            24,
+                            -8
+                        },
+                        {
+                            'urb0102',
+                            10682,
+                            16,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            10797,
+                            24,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            10966,
+                            8,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            11099,
+                            16,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            11292,
+                            24,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            11415,
+                            32,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            11570,
+                            40,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            11733,
+                            40,
+                            8
+                        },
+                        {
+                            'urb0102',
+                            11872,
+                            32,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            12267,
+                            -8,
+                            -24
+                        },
+                        {
+                            'urb0102',
+                            12403,
+                            8,
+                            -24
+                        },
+                        {
+                            'urb0102',
+                            12506,
+                            0,
+                            -32
+                        },
+                        {
+                            'urb0102',
+                            12766,
+                            -16,
+                            0
+                        },
+                        {
+                            'urb0102',
+                            13031,
+                            -16,
+                            16
+                        },
+                        {
+                            'urb0102',
+                            13231,
+                            -8,
+                            24
+                        },
+                        {
+                            'urb0102',
+                            13395,
+                            0,
+                            32
+                        }
+                    },
+                    name = 'Air Factory',
+                    icon = 'urb0102'
+                }
+            },
+            Notify_overlay_disabled = false,
+            Lobby_Gen_Timeouts = 3,
+            LobbyOpt_AIPLatoonNameDebug = 'off',
+            lastKickMessage = '\\u52\\u65\\u20\\u46\\u41\\u46',
+            SnowFlakesCount = 100,
+            stratview = false,
+            skin = 'cybran',
+            LobbyOpt_HandicapMassGenThirteen = '0',
+            LobbyOpt_HandicapMaxHealthTwelve = '0',
+            LobbyOpt_PhantomRevealTime2 = '1',
+            LobbyOpt_HandicapMaxHealthTen = '0',
+            Notify_tech_disabled = true,
+            LobbyOpt_PhantomRevealTime3 = '1',
+            options = {
+                [''] = '',
+                SSB_Auto_Toggle_Interval = 10,
+                tooltip_delay = 0,
+                keyboard_rotate_accelerate_multiplier = 2,
+                unitsnd_acknowledge = 'none',
+                gui_enhanced_unitrings = 0,
+                show_hotkeylabels = true,
+                assist_to_upgrade = 'Tech1Extractors',
+                bloom_intensity = 15,
+                casting_painting = 18,
+                gui_scu_manager = 0,
+                lock_fullscreen_cursor_to_window = 0,
+                music_volume = 0,
+                gui_all_race_templates = 1,
+                gui_zoom_pop_distance = 80,
+                structure_ringing_extractors_fabs = '4',
+                keyboard_pan_speed = 90,
+                maximum_reclaim_count = 1000,
+                structure_ringing_artillery = 'on',
+                selection_threshold_regular = 10,
+                uvd_format = 'full',
+                strat_icons_always_on = 0,
+                cursor_hover_scanning = 'off',
+                shadow_quality = 2,
+                automex = 'onlyT1',
+                share_mouse = 'off',
+                steal_from_other_control_groups = 'Off',
+                spawn_menu_notech_filter = 1,
+                camera_shake_intensity = 100,
+                selection_sets_double_tap_behavior = 'translate-zoom',
+                gui_bigger_strat_build_icons = 0,
+                SSB_MessageWhen_SharingUnits = true,
+                selection_threshold_reclaim = 10,
+                reclaim_color = 'GtoO',
+                gui_enhanced_unitview = 0,
+                keyboard_pan_accelerate_multiplier = 4,
+                primary_adapter = 'windowed',
+                SSB_Ping_Name = true,
+                fidelity_presets = 2,
+                show_attached_unit_lifebars = true,
+                add_to_factory_control_group = 'Off',
+                selectedlanguage = 'US',
+                faction_font_color = false,
+                gui_queue_on_hover_02 = 'only-obs',
+                spawn_menu_filter_columns = 6,
+                spawn_menu_type_filter_mode = 0,
+                screen_edge_pans_main_view = 1,
+                em_mexoverlay = 1,
+                em_mexes = 'auto',
+                SSB_Auto_Toggle_Units_Column = true,
+                selection_threshold_replay = 20,
+                alt_to_force_attack_move = 'On',
+                gui_templates_factory = 1,
+                wheel_sensitivity = 40,
+                em_throttle = 1,
+                SSB_Auto_Toggle_Engy_Column = true,
+                tooltips = true,
+                experimental_graphics = 0,
+                gui_detailed_unitview = 0,
+                em_autoshare = 0,
+                assist_to_unpause = 'On',
+                reclaim_size = 'SizeOn',
+                minimum_reclaim_amount = 10,
+                gui_queue_on_hover_01 = 1,
+                ui_scale = 1,
+                unitsnd_selection = 'simple',
+                quick_exit = 'false',
+                texture_level = 0,
+                spawn_menu_team_columns = 4,
+                SSB_Ping_Time = 0,
+                arrow_keys_pan_main_view = 1,
+                gui_template_name_cutoff = 0,
+                fidelity = 2,
+                bloom_render = 0,
+                keyboard_rotate_speed = 10,
+                structure_ringing_artillery_end_game = 'on',
+                hotbuild_cycle_preview = 1,
+                loading_tips = true,
+                gui_template_rotator = 1,
+                econ_warnings = true,
+                assist_mex = true,
+                level_of_detail = 2,
+                SSB_SortBy_Column = 'teamID',
+                reclaim_overview_size_scale = 10,
+                repeatbuild = 'On',
+                cursor_splash_damage = 'off',
+                fx_volume = 33,
+                gui_visible_template_names = 0,
+                skin_change_on_start = 'yes',
+                mp_taunt_head_enabled = 'true',
+                gui_draggable_queue = 0,
+                vsync = 0,
+                gui_improved_unit_deselection = 0,
+                vo_volume = 100,
+                SSB_Auto_Toggle_Score_Column = true,
+                SSB_MessageWhen_SharingMass = true,
+                hotbuild_cycle_reset_time = 1100,
+                render_skydome = 1,
+                gui_seperate_idle_builders = 0,
+                spawn_menu_split_sources = 0,
+                accept_build_templates = 'yes',
+                gui_render_enemy_lifebars = 0,
+                SSB_MessageWhen_SharingEngy = false,
+                cursor_depth_scanning = 'off',
+                selection_sets_double_tap_decay = 1000,
+                spawn_menu_filter_menu_sort = 1,
+                selection_sets_add_behavior = false,
+                world_border = true,
+                secondary_adapter = 'disabled',
+                SSB_Ping_Color = 'ping',
+                antialiasing = 64,
+                subtitles = false,
+                gui_idle_engineer_avatars = 0,
+                gui_render_armament_detail = 1,
+                mainmenu_bgmovie = true,
+                spawn_menu_paragon_filter = 0,
+                SSB_NotifyThresholdFor_BuiltT4 = 5,
+                SSB_Auto_Toggle_Mass_Column = true,
+                display_eta = true,
+                SSB_Auto_Toggle_Total_Column = true,
+                em_mexOpti = 0,
+                reclaim_overview_batching = 1,
+                reclaim_batching_distance_treshold = 150,
+                selection_sets_production_behavior = false,
+                gui_render_custom_names = 0,
+                master_volume = 50,
+                SSB_Ping_Size = 14,
+                structure_ringing_radar = 'on',
+                structure_capping_feature_01 = 'on'
+            },
+            LobbyOpt_ScenarioFile = '/maps/fun setons/fun setons_scenario.lua',
+            Autoshare_settings = {
+                top = 8,
+                MASS = 1,
+                left = 425,
+                ENERGY = 1
+            },
+            LobbyOpt_NoRushOption = 'Off',
+            LobbyOpt_BuildMult = '2.0',
+            UserDebugKeyMap = {
+                ['Ctrl-T'] = 'debug_teleport',
+                ['Ctrl-Alt-V'] = 'debug_skeletons',
+                ['Ctrl-Alt-B'] = 'debug_bones',
+                ['Alt-Delete'] = 'debug_destroy_units',
+                ['Ctrl-Alt-Z'] = 'debug_sally_shears',
+                ['Ctrl-F9'] = 'debug_toggle_log_window',
+                ['Ctrl-Shift-V'] = 'debug_paste_units',
+                ['Alt-F2'] = 'debug_create_unit',
+                ['Ctrl-Alt-W'] = 'debug_dump_focus_ui_control',
+                ['Ctrl-Alt-N'] = 'debug_nodamage',
+                ['Ctrl-Shift-F1'] = 'debug_toggle_pannels',
+                ['Ctrl-Shift-C'] = 'debug_copy_units',
+                ['Ctrl-Alt-D'] = 'debug_dump_ui_controls'
+            },
+            LobbyOpt_Phantom_Meteor = '0',
+            LobbyOpt_HandicapMassGenTwo = '0',
+            LobbyOpt_KingOfTheHillTechCurve = 1,
+            LobbyOpt_HandicapMaxHealthSix = '0',
+            LobbyOpt_HandicapMaxHealthEight = '0',
+            hotbuildoverhaul = { },
+            range_RenderHighlighted = true,
+            LobbyOpt_PhantomRevealWho = '0',
+            MenuTutorialPrompt = true,
+            LobbyOpt_KingOfTheHillHillTechIntroductionDelay = 1,
+            LobbyOpt_CarePackagesRate = 40,
+            LobbyOpt_PhantomPaladinBonus = '45',
+            layout = 'bottom',
+            Notify_custom_disabled = false,
+            reminder_settings = {
+                notification = {
+                    ['/mods/reminder/resources/notifications/scripts/script_nuke_missile_finished.lua'] = {
+                        preferences = { },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_acu_low_hp.lua'] = {
+                        preferences = {
+                            warnAtPercentage = 20
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/timed/timed_scout.lua'] = {
+                        preferences = {
+                            triggerAtSeconds = 600,
+                            retriggerDelay = 120,
+                            canRetrigger = true
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_lost_valuable_building.lua'] = {
+                        preferences = {
+                            checkOmni = true,
+                            markerDuration = 20,
+                            checkSMD = true,
+                            useMarker = true
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/timed/timed_antinuke.lua'] = {
+                        preferences = {
+                            triggerAtSeconds = 1800,
+                            retriggerDelay = 600,
+                            canRetrigger = true
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/conditionaltimed/ctimed_powerstorage.lua'] = {
+                        preferences = {
+                            triggerAtSeconds = 480,
+                            retriggerDelay = 120,
+                            canRetrigger = true
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_mass_in_storage.lua'] = {
+                        preferences = {
+                            percentageMass = 50,
+                            totalMass = 5000
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_acu_under_attack.lua'] = {
+                        preferences = {
+                            warnAtPercentageInStrike = 3,
+                            warnAtPercentage = 1
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/conditionaltimed/ctimed_airstaging.lua'] = {
+                        preferences = {
+                            triggerAtSeconds = 720,
+                            retriggerDelay = 120,
+                            canRetrigger = true
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_tactical_missile_finished.lua'] = {
+                        preferences = { },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_hq_upgrade_finished.lua'] = {
+                        preferences = { },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_engineers_idle.lua'] = {
+                        preferences = {
+                            t2Engy = true,
+                            t3Engy = true,
+                            t1Engy = false
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/observer/obs_commanddone.lua'] = {
+                        preferences = { },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_mex_upgrade_finished.lua'] = {
+                        preferences = { },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_factories_idle.lua'] = {
+                        preferences = {
+                            t3factory = true,
+                            t2factory = true,
+                            t1factory = true
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    },
+                    ['/mods/reminder/resources/notifications/scripts/script_energy_overflow.lua'] = {
+                        preferences = {
+                            overflowPercentage = 20,
+                            continuousSeconds = 10
+                        },
+                        states = {
+                            isPing = false,
+                            isPlaySound = false,
+                            isDisplay = true,
+                            isActive = true
+                        }
+                    }
+                },
+                global = {
+                    isVisible = true,
+                    isButtonsSetLeft = true,
+                    isPing = false,
+                    xOffset = 2,
+                    duration = 5,
+                    isNotificationsToPositiveX = true,
+                    isClickEvent = true,
+                    startDelay = 60,
+                    minRetriggerDelay = 15,
+                    isButtonsOnlyOnMouseover = false,
+                    isPlaySound = false,
+                    uiSize = 2,
+                    isMinimizable = true,
+                    isDraggable = true,
+                    yOffset = 156
+                }
+            },
+            LobbyOpt_Score = 'no',
+            LobbyOpt_RandomPositionGroups = {
+                {
+                    1,
+                    3,
+                    5,
+                    7
+                },
+                {
+                    2,
+                    4,
+                    6,
+                    8
+                }
+            },
+            LobbyOpt_LandExpansionsAllowed = '5',
+            LobbyOpt_TMLRandom = '0',
+            LobbyOpt_TeamLock = 'locked',
+            LobbyOpt_AIUnitCap = '0',
+            LobbyOpt_HandicapMassGenNine = '0',
+            LobbyOpt_HandicapMaxHealthFive = '0',
+            LobbyOpt_PhantomRevealTime1 = '30',
+            LobbyOpt_Share = 'FullShare',
+            LobbyOpt_HandicapMassGenTwelve = '0',
+            LobbyOpt_HandicapMassGenSeven = '0',
+            LobbyOpt_HandicapMassGenSix = '0',
+            LobbyOpt_HandicapMassGenSixteen = '0',
+            LobbyOpt_HandicapMaxHealthFourteen = '0',
+            Notify_nomads_disabled = true,
+            LobbyOpt_HandicapMaxHealthOne = '0',
+            LobbyChatFontSize = 16,
+            console_window = {
+                top = 220,
+                bottom = 715,
+                height = 495,
+                right = 518,
+                left = 223,
+                width = 295
+            },
+            LobbyOpt_AIReplacement = 'Off',
+            LobbyOpt_AllowObservers = false,
+            LobbyOpt_FogOfWar = 'explored',
+            WindowedLobby = 'false',
+            LobbyOpt_PhantomPaladinCoefficient = '2',
+            LobbyOpt_AIOverwhelmDelay = 20
+        }
+    }
+}
+mods_favorite = { }
+version = {
+    major = 1
+}
+Windows = {
+    Log = {
+        y = 219,
+        x = 903
+    },
+    Main = {
+        maximized = true,
+        x = -9,
+        height = 768,
+        y = -9,
+        width = 1024
+    },
+    Debug = {
+        y = 10,
+        x = 10,
+        height = 550,
+        Watch = {
+            Stack = {
+                block = 154,
+                source = 212,
+                line = 72
+            },
+            Global = {
+                value = 212,
+                type = 215,
+                name = 220
+            },
+            Local = {
+                value = 212,
+                type = 134,
+                name = 217
+            }
+        },
+        width = 900,
+        Sash = {
+            horizontal = 212,
+            vertical = 330
+        }
+    }
+}
+active_mods = {
+    ['zcbf6277-24e3-437a-b968-Common-v1'] = true,
+    ['081948f9-12fc-40cc-9045-022d98bdf61b'] = true,
+    ['ecbf6277-24e3-597a-b968-EcoManager-v12'] = true,
+    ['eco-ui-tools-4z0t-v10'] = true,
+    ['context-based-templates-04'] = true,
+    ['fd2a78da-790f-4ba4-a6a9-063521c0e548'] = true,
+    ['acu-highlight-4z0t-v04'] = true,
+    ['5F593E02-FEF3-487C-916F-D6020903054B'] = true,
+    ['HUSSAR-PL-a1e2-c4t4-scfa-ssbmod-v0060'] = true,
+    ['3ccc4eca-0cb1-11ec-ac65-a37599393411-02'] = true
+}
+debug = {
+    enable_debug_facilities = true
+}
+PerformanceTrackingV2 = {
+    SkirmishWithAI = {
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 217,
+            UnitCount = {
+                Min = 3.1732497215271,
+                Max = 24.291746139526
+            }
+        },
+        Samples = 4
+    },
+    Skirmish = {
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 0
+        },
+        {
+            Samples = 18,
+            UnitCount = {
+                Min = 7939,
+                Max = 8326
+            }
+        },
+        {
+            Samples = 2110,
+            UnitCount = {
+                Min = 6020.2866210938,
+                Max = 8970.11328125
+            }
+        },
+        {
+            Samples = 10986,
+            UnitCount = {
+                Min = 5577.93359375,
+                Max = 7487.2626953125
+            }
+        },
+        {
+            Samples = 58529,
+            UnitCount = {
+                Min = 1928.9468994141,
+                Max = 6440.8286132813
+            }
+        },
+        {
+            Samples = 93959,
+            UnitCount = {
+                Min = 4188.13671875,
+                Max = 5545.6723632813
+            }
+        },
+        {
+            Samples = 125028,
+            UnitCount = {
+                Min = 3254.7189941406,
+                Max = 4776.517578125
+            }
+        },
+        {
+            Samples = 125296,
+            UnitCount = {
+                Min = 3046.1611328125,
+                Max = 3909.7182617188
+            }
+        },
+        {
+            Samples = 106427,
+            UnitCount = {
+                Min = 2365.6606445313,
+                Max = 3547.5502929688
+            }
+        },
+        {
+            Samples = 105305,
+            UnitCount = {
+                Min = 1912.8547363281,
+                Max = 3026.2419433594
+            }
+        },
+        {
+            Samples = 113608,
+            UnitCount = {
+                Min = 1615.9006347656,
+                Max = 2334.1140136719
+            }
+        },
+        {
+            Samples = 116907,
+            UnitCount = {
+                Min = 1272.5823974609,
+                Max = 1895.0672607422
+            }
+        },
+        {
+            Samples = 102256,
+            UnitCount = {
+                Min = 914.59997558594,
+                Max = 1483.4000244141
+            }
+        },
+        {
+            Samples = 82646,
+            UnitCount = {
+                Min = 788.55023193359,
+                Max = 1086.4547119141
+            }
+        },
+        {
+            Samples = 341482,
+            UnitCount = {
+                Min = 50.450000762939,
+                Max = 814.54998779297
+            }
+        },
+        Samples = 848
+    }
+}
