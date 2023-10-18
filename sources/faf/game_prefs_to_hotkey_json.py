@@ -1,7 +1,6 @@
 
 import re
 import json
-import sys
 from datetime import datetime
 
 
@@ -44,14 +43,14 @@ def replace_all(text, dic):
     return text
 
 
-def main():
+def main(game_prefs_filepath="./CheeseBerry_Game.prefs"):
     year_month_day = datetime.now().strftime('%Y-%m-%d')
-    game_prefs_filepath = sys.argv[1]
     keymap_name = replace_all(
         game_prefs_filepath,
         {"_Game": "",
          ".prefs": "",
          ".": "",
+         "/": "",
          "\\": ""
          }
     )
@@ -62,19 +61,11 @@ def main():
         prefs_content = f.read()
     extracted_hotkeys = extract_hotkeys_from_lua(prefs_content)
 
-    # print("Extracted Hotkeys:")
-    # for hotkey in extracted_hotkeys:
-    #     print(hotkey)
-
     # Translate lua to json hotkey format and print the updated list
     updated_hotkeys = {}
     for key, action in extracted_hotkeys:
         key = convert_lua_to_json_format(key, lua_to_json_format)
         updated_hotkeys[action] = [key, ""]
-
-    # print("\nUpdated Hotkeys:")
-    # for action, keys in updated_hotkeys.items():
-    #     print(f"{action} -> {keys[0]}")
 
     # Insert the updated hotkeys into the JSON structure and print the resulting JSON
     output_data = {
