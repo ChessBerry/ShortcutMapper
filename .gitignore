@@ -39,3 +39,6 @@ nbproject
 .hg
 .svn
 .idea
+
+# FAF
+*.prefs
