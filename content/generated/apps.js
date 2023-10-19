@@ -12,6 +12,14 @@ var sitedata_apps = [
         }
     },
     {
+        name: "CheeseBerryJS",
+        data: {
+            "2023-10-19": {
+                "windows": "cheeseberryjs_2023-10-19_windows.json",
+            },
+        }
+    },
+    {
         name: "Mizer",
         data: {
             "2023-10-15": {

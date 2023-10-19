@@ -1,0 +1,398 @@
+{
+    "name" : "CheeseBerryJS",
+    "version" : "2023-10-19",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "A" : [
+                {"name":"Snipe", "mods":["ALT", "CONTROL"]},
+                {"name":"attack", "mods":["ALT"]},
+                {"name":"hko_hotkey_a", "mods":[]},
+                {"name":"hko_hotkey_a_s", "mods":["SHIFT"]},
+                {"name":"shift_attack", "mods":["ALT", "SHIFT"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"Undo last queue order", "mods":["SHIFT"]},
+                {"name":"soft_stop", "mods":[]}
+            ],
+            "ASTERISK" : [
+                {"name":"reset_game_speed", "mods":[]}
+            ],
+            "B" : [
+                {"name":"Select land bombers on screen", "mods":["CONTROL"]},
+                {"name":"arties", "mods":[]},
+                {"name":"target_Bships", "mods":["ALT", "CONTROL"]}
+            ],
+            "BACKSLASH" : [
+                {"name":"debug_sally_shears", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "C" : [
+                {"name":"Select indirect fire land units on screen", "mods":["CONTROL"]},
+                {"name":"aa", "mods":[]}
+            ],
+            "COMMA" : [
+                {"name":"toggle_repeat_build", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Select (normal) naval units on screen", "mods":["CONTROL"]},
+                {"name":"Set: Which domains to filter to: NAVAL > LAND  > AIR", "mods":["ALT"]},
+                {"name":"Shields", "mods":["ALT", "CONTROL"]},
+                {"name":"energy_storage", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_d", "mods":[]},
+                {"name":"hko_hotkey_d_s", "mods":["SHIFT"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"switch_layout_down", "mods":["ALT"]}
+            ],
+            "E" : [
+                {"name":"Select air scouts on screen", "mods":["CONTROL"]},
+                {"name":"hko_hotkey_e", "mods":[]},
+                {"name":"hko_hotkey_e_s", "mods":["SHIFT"]},
+                {"name":"t3_support_air_factory", "mods":["ALT"]}
+            ],
+            "EIGHT" : [
+                {"name":"append_group8", "mods":["SHIFT"]},
+                {"name":"fac_group8", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group8", "mods":[]},
+                {"name":"set_group8", "mods":["CONTROL"]}
+            ],
+            "EQUAL" : [
+                {"name":"increase_game_speed", "mods":["CONTROL", "SHIFT"]},
+                {"name":"pause", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "ESCAPE" : [
+                {"name":"stop", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Power", "mods":["ALT", "CONTROL"]},
+                {"name":"Set: Which domains to filter to: AIR   > NAVAL > LAND", "mods":["ALT"]},
+                {"name":"pgen", "mods":[]},
+                {"name":"select_all_factory_onscreen", "mods":["CONTROL"]}
+            ],
+            "F1" : [
+                {"name":"debug_copy_units", "mods":["ALT"]},
+                {"name":"debug_paste_units", "mods":["CONTROL"]},
+                {"name":"toggle_key_bindings", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"toggle_main_menu", "mods":[]}
+            ],
+            "F11" : [
+                {"name":"toggle_disconnect_screen", "mods":[]}
+            ],
+            "F12" : [
+                {"name":"show_objective_screen", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"debug_create_unit", "mods":["ALT"]}
+            ],
+            "F3" : [
+                {"name":"debug_teleport", "mods":["ALT"]},
+                {"name":"quick_save", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"toggle_diplomacy_screen", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"debug_create_entity", "mods":["SHIFT"]},
+                {"name":"debug_toggle_log_window", "mods":["ALT"]}
+            ],
+            "F9" : [
+                {"name":"show_network_stats", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"append_group5", "mods":["SHIFT"]},
+                {"name":"fac_group5", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group5", "mods":[]},
+                {"name":"set_group5", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"fac_group4", "mods":["CONTROL", "SHIFT"]},
+                {"name":"ping_marker", "mods":["CONTROL"]},
+                {"name":"zoom_pop", "mods":[]}
+            ],
+            "G" : [
+                {"name":"alt_templates", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_g", "mods":[]},
+                {"name":"hko_hotkey_g_s", "mods":["SHIFT"]},
+                {"name":"target_Destros", "mods":["ALT", "CONTROL"]}
+            ],
+            "H" : [
+                {"name":"Select transports on screen", "mods":["CONTROL"]},
+                {"name":"engystation", "mods":[]}
+            ],
+            "J" : [
+                {"name":"mml", "mods":[]}
+            ],
+            "K" : [
+                {"name":"Toggle: Filter domains", "mods":["ALT"]},
+                {"name":"mobileshield", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Select experimentals on screen", "mods":["CONTROL"]},
+                {"name":"Toggle: Filter exotics", "mods":["ALT"]},
+                {"name":"fieldengy", "mods":[]},
+                {"name":"load_transports", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"switch_skin_down", "mods":["ALT"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"mode", "mods":[]}
+            ],
+            "M" : [
+                {"name":"Select torpedo bombers on screen", "mods":["CONTROL"]}
+            ],
+            "MINUS" : [
+                {"name":"decrease_game_speed", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "N" : [
+                {"name":"Select gunships on screen", "mods":["CONTROL"]},
+                {"name":"tml", "mods":[]}
+            ],
+            "NINE" : [
+                {"name":"append_group9", "mods":["SHIFT"]},
+                {"name":"fac_group9", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group9", "mods":[]},
+                {"name":"set_group9", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"reset_game_speed", "mods":[]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"append_group8", "mods":["SHIFT"]},
+                {"name":"fac_group8", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group8", "mods":[]},
+                {"name":"set_group8", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_EQUAL" : [
+                {"name":"increase_game_speed", "mods":["CONTROL", "SHIFT"]},
+                {"name":"pause", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"append_group5", "mods":["SHIFT"]},
+                {"name":"fac_group5", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group5", "mods":[]},
+                {"name":"set_group5", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"fac_group4", "mods":["CONTROL", "SHIFT"]},
+                {"name":"ping_marker", "mods":["CONTROL"]},
+                {"name":"zoom_pop", "mods":[]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"append_group9", "mods":["SHIFT"]},
+                {"name":"fac_group9", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group9", "mods":[]},
+                {"name":"set_group9", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"fac_group1", "mods":["CONTROL", "SHIFT"]},
+                {"name":"hko_hotkey_1", "mods":[]},
+                {"name":"hko_hotkey_1_a", "mods":["ALT"]},
+                {"name":"hko_hotkey_1_as", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_1_s", "mods":["SHIFT"]},
+                {"name":"ping_alert", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"cam_free", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"cycle_engineers", "mods":[]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"append_group7", "mods":["SHIFT"]},
+                {"name":"fac_group7", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group7", "mods":[]},
+                {"name":"set_group7", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"append_group6", "mods":["SHIFT"]},
+                {"name":"fac_group6", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group6", "mods":[]},
+                {"name":"set_group6", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_SLASH" : [
+                {"name":"debug_bones", "mods":[]},
+                {"name":"debug_collision", "mods":["ALT", "CONTROL"]},
+                {"name":"debug_render_wireframe", "mods":["ALT"]},
+                {"name":"debug_skeletons", "mods":["CONTROL"]},
+                {"name":"reset_camera", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Select nearest idle factory", "mods":[]},
+                {"name":"fac_group3", "mods":["CONTROL", "SHIFT"]},
+                {"name":"ping_attack", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"fac_group2", "mods":["CONTROL", "SHIFT"]},
+                {"name":"hko_hotkey_2", "mods":[]},
+                {"name":"hko_hotkey_2_a", "mods":["ALT"]},
+                {"name":"hko_hotkey_2_as", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_2_s", "mods":["SHIFT"]},
+                {"name":"ping_move", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"append_group0", "mods":["SHIFT"]},
+                {"name":"fac_group0", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group0", "mods":[]},
+                {"name":"set_group0", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"fac_group1", "mods":["CONTROL", "SHIFT"]},
+                {"name":"hko_hotkey_1", "mods":[]},
+                {"name":"hko_hotkey_1_a", "mods":["ALT"]},
+                {"name":"hko_hotkey_1_as", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_1_s", "mods":["SHIFT"]},
+                {"name":"ping_alert", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"Delete closest ring to mouse position", "mods":["SHIFT"]},
+                {"name":"Open menu: Default", "mods":[]},
+                {"name":"PaintTool", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"chat_line_down", "mods":["SHIFT"]},
+                {"name":"chat_page_down", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"chat_line_up", "mods":["SHIFT"]},
+                {"name":"chat_page_up", "mods":[]}
+            ],
+            "PERIOD" : [
+                {"name":"cam_free", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"cycle_engineers", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"move", "mods":[]},
+                {"name":"patrol", "mods":["CONTROL"]},
+                {"name":"repair", "mods":["ALT"]},
+                {"name":"shift_move", "mods":["SHIFT"]},
+                {"name":"shift_patrol", "mods":["CONTROL", "SHIFT"]},
+                {"name":"shift_repair", "mods":["ALT", "SHIFT"]}
+            ],
+            "R" : [
+                {"name":"hko_hotkey_r", "mods":[]},
+                {"name":"hko_hotkey_r_s", "mods":["SHIFT"]},
+                {"name":"shift_ferry", "mods":["CONTROL", "SHIFT"]},
+                {"name":"shift_transport", "mods":["ALT", "SHIFT"]},
+                {"name":"teleport", "mods":["ALT"]},
+                {"name":"toggle_cloak", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"switch_skin_up", "mods":["ALT"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"Kill_Selected_Units", "mods":["CONTROL", "SHIFT"]},
+                {"name":"suicide", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"Mex", "mods":["ALT", "CONTROL"]},
+                {"name":"Select engineers on screen except ACU", "mods":["CONTROL"]},
+                {"name":"Set: Which domains to filter to: LAND  > NAVAL > AIR", "mods":["ALT"]},
+                {"name":"mass", "mods":[]},
+                {"name":"mass_storage", "mods":["ALT", "SHIFT"]}
+            ],
+            "SEMICOLON" : [
+                {"name":"distribute_orders", "mods":["ALT", "CONTROL"]},
+                {"name":"shift_distribute_orders", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "SEVEN" : [
+                {"name":"append_group7", "mods":["SHIFT"]},
+                {"name":"fac_group7", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group7", "mods":[]},
+                {"name":"set_group7", "mods":["CONTROL"]}
+            ],
+            "SINGLE_QUOTE" : [
+                {"name":"Toggle: Mod is enabled", "mods":["ALT"]},
+                {"name":"create_template_factory", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"debug_blingbling", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SIX" : [
+                {"name":"append_group6", "mods":["SHIFT"]},
+                {"name":"fac_group6", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group6", "mods":[]},
+                {"name":"set_group6", "mods":["CONTROL"]}
+            ],
+            "SLASH" : [
+                {"name":"debug_bones", "mods":[]},
+                {"name":"debug_collision", "mods":["ALT", "CONTROL"]},
+                {"name":"debug_render_wireframe", "mods":["ALT"]},
+                {"name":"debug_skeletons", "mods":["CONTROL"]},
+                {"name":"reset_camera", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "SPACE" : [
+                {"name":"Select idle engineers on screen except ACU", "mods":[]},
+                {"name":"filter_highest_engineer_and_assist", "mods":["CONTROL"]}
+            ],
+            "T" : [
+                {"name":"SMD", "mods":["ALT", "CONTROL"]},
+                {"name":"hko_hotkey_t", "mods":[]},
+                {"name":"hko_hotkey_t_s", "mods":["SHIFT"]},
+                {"name":"nuke", "mods":["ALT"]}
+            ],
+            "TAB" : [
+                {"name":"pause_unit", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"Select nearest idle factory", "mods":[]},
+                {"name":"fac_group3", "mods":["CONTROL", "SHIFT"]},
+                {"name":"ping_attack", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"fac_group2", "mods":["CONTROL", "SHIFT"]},
+                {"name":"hko_hotkey_2", "mods":[]},
+                {"name":"hko_hotkey_2_a", "mods":["ALT"]},
+                {"name":"hko_hotkey_2_as", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_2_s", "mods":["SHIFT"]},
+                {"name":"ping_move", "mods":["CONTROL"]}
+            ],
+            "U" : [
+                {"name":"Units", "mods":["ALT", "CONTROL"]},
+                {"name":"massfab", "mods":[]}
+            ],
+            "UP_ARROW" : [
+                {"name":"switch_layout_up", "mods":["ALT"]}
+            ],
+            "V" : [
+                {"name":"Fighters", "mods":["ALT", "CONTROL"]},
+                {"name":"dive", "mods":["ALT"]},
+                {"name":"select_anti_air_fighters", "mods":["CONTROL"]},
+                {"name":"shift_dive", "mods":["ALT", "SHIFT"]},
+                {"name":"split_next", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"torpedo", "mods":[]}
+            ],
+            "W" : [
+                {"name":"Engies", "mods":["ALT", "CONTROL"]},
+                {"name":"hko_hotkey_w", "mods":[]},
+                {"name":"hko_hotkey_w_a", "mods":["ALT"]},
+                {"name":"hko_hotkey_w_as", "mods":["ALT", "SHIFT"]},
+                {"name":"hko_hotkey_w_s", "mods":["SHIFT"]},
+                {"name":"toggle_shield", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"PD", "mods":["ALT", "CONTROL"]},
+                {"name":"Select nonindirect fire land units on screen", "mods":["CONTROL"]},
+                {"name":"Shift Disperse Move", "mods":["CONTROL", "SHIFT"]},
+                {"name":"defense", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"hko_hotkey_y", "mods":[]},
+                {"name":"hko_hotkey_y_s", "mods":["SHIFT"]}
+            ],
+            "Z" : [
+                {"name":"Select land units on screen", "mods":["CONTROL"]},
+                {"name":"guard", "mods":["ALT"]},
+                {"name":"select_commander", "mods":[]},
+                {"name":"shift_guard", "mods":["ALT", "SHIFT"]},
+                {"name":"shift_spreadattack", "mods":["SHIFT"]}
+            ],
+            "ZERO" : [
+                {"name":"append_group0", "mods":["SHIFT"]},
+                {"name":"fac_group0", "mods":["CONTROL", "SHIFT"]},
+                {"name":"group0", "mods":[]},
+                {"name":"set_group0", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}

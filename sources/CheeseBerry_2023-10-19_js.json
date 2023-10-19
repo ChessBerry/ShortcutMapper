@@ -1,0 +1,732 @@
+{
+    "name": "CheeseBerryJS",
+    "version": "2023-10-19",
+    "default_context": "Global Context",
+    "os": [
+        "windows"
+    ],
+    "contexts": {
+        "Global Context": {
+            "pause_unit": [
+                "Tab",
+                ""
+            ],
+            "fac_group4": [
+                "Ctrl + Shift + 4",
+                ""
+            ],
+            "cam_free": [
+                "Ctrl + Alt + Shift + .",
+                ""
+            ],
+            "set_group0": [
+                "Ctrl + 0",
+                ""
+            ],
+            "append_group8": [
+                "Shift + 8",
+                ""
+            ],
+            "switch_layout_up": [
+                "Alt + UpArrow",
+                ""
+            ],
+            "ping_move": [
+                "Ctrl + 2",
+                ""
+            ],
+            "set_group9": [
+                "Ctrl + 9",
+                ""
+            ],
+            "PD": [
+                "Ctrl + Alt + X",
+                ""
+            ],
+            "Undo last queue order": [
+                "Shift + `",
+                ""
+            ],
+            "SMD": [
+                "Ctrl + Alt + T",
+                ""
+            ],
+            "hko_hotkey_1_s": [
+                "Shift + 1",
+                ""
+            ],
+            "chat_page_up": [
+                "PageUp",
+                ""
+            ],
+            "PaintTool": [
+                "Ctrl + P",
+                ""
+            ],
+            "Shift Disperse Move": [
+                "Ctrl + Shift + X",
+                ""
+            ],
+            "Select gunships on screen": [
+                "Ctrl + N",
+                ""
+            ],
+            "shift_spreadattack": [
+                "Shift + Z",
+                ""
+            ],
+            "mode": [
+                "[",
+                ""
+            ],
+            "alt_templates": [
+                "Alt + Shift + G",
+                ""
+            ],
+            "set_group5": [
+                "Ctrl + 5",
+                ""
+            ],
+            "decrease_game_speed": [
+                "Ctrl + Shift + Minus",
+                ""
+            ],
+            "Snipe": [
+                "Ctrl + Alt + A",
+                ""
+            ],
+            "distribute_orders": [
+                "Ctrl + Alt + ;",
+                ""
+            ],
+            "hko_hotkey_2_as": [
+                "Alt + Shift + 2",
+                ""
+            ],
+            "Select land units on screen": [
+                "Ctrl + Z",
+                ""
+            ],
+            "append_group5": [
+                "Shift + 5",
+                ""
+            ],
+            "fac_group7": [
+                "Ctrl + Shift + 7",
+                ""
+            ],
+            "set_group8": [
+                "Ctrl + 8",
+                ""
+            ],
+            "switch_skin_down": [
+                "Alt + LeftArrow",
+                ""
+            ],
+            "zoom_pop": [
+                "4",
+                ""
+            ],
+            "filter_highest_engineer_and_assist": [
+                "Ctrl + Space",
+                ""
+            ],
+            "debug_copy_units": [
+                "Alt + F1",
+                ""
+            ],
+            "shift_distribute_orders": [
+                "Ctrl + Alt + Shift + ;",
+                ""
+            ],
+            "switch_layout_down": [
+                "Alt + DownArrow",
+                ""
+            ],
+            "reset_camera": [
+                "Ctrl + Alt + Shift + /",
+                ""
+            ],
+            "toggle_shield": [
+                "Ctrl + W",
+                ""
+            ],
+            "hko_hotkey_w_s": [
+                "Shift + W",
+                ""
+            ],
+            "Toggle: Filter domains": [
+                "Alt + K",
+                ""
+            ],
+            "hko_hotkey_1": [
+                "1",
+                ""
+            ],
+            "group0": [
+                "0",
+                ""
+            ],
+            "Select nearest idle factory": [
+                "3",
+                ""
+            ],
+            "hko_hotkey_2": [
+                "2",
+                ""
+            ],
+            "group5": [
+                "5",
+                ""
+            ],
+            "group7": [
+                "7",
+                ""
+            ],
+            "group6": [
+                "6",
+                ""
+            ],
+            "group9": [
+                "9",
+                ""
+            ],
+            "group8": [
+                "8",
+                ""
+            ],
+            "hko_hotkey_w_as": [
+                "Alt + Shift + W",
+                ""
+            ],
+            "shift_patrol": [
+                "Ctrl + Shift + Q",
+                ""
+            ],
+            "hko_hotkey_a": [
+                "A",
+                ""
+            ],
+            "aa": [
+                "C",
+                ""
+            ],
+            "arties": [
+                "B",
+                ""
+            ],
+            "hko_hotkey_e": [
+                "E",
+                ""
+            ],
+            "hko_hotkey_d": [
+                "D",
+                ""
+            ],
+            "hko_hotkey_g": [
+                "G",
+                ""
+            ],
+            "fac_group9": [
+                "Ctrl + Shift + 9",
+                ""
+            ],
+            "engystation": [
+                "H",
+                ""
+            ],
+            "cycle_engineers": [
+                ".",
+                ""
+            ],
+            "hko_hotkey_2_a": [
+                "Alt + 2",
+                ""
+            ],
+            "hko_hotkey_t_s": [
+                "Shift + T",
+                ""
+            ],
+            "tml": [
+                "N",
+                ""
+            ],
+            "shift_ferry": [
+                "Ctrl + Shift + R",
+                ""
+            ],
+            "Open menu: Default": [
+                "P",
+                ""
+            ],
+            "fac_group6": [
+                "Ctrl + Shift + 6",
+                ""
+            ],
+            "hko_hotkey_r": [
+                "R",
+                ""
+            ],
+            "debug_create_unit": [
+                "Alt + F2",
+                ""
+            ],
+            "hko_hotkey_t": [
+                "T",
+                ""
+            ],
+            "hko_hotkey_w": [
+                "W",
+                ""
+            ],
+            "torpedo": [
+                "V",
+                ""
+            ],
+            "Select engineers on screen except ACU": [
+                "Ctrl + S",
+                ""
+            ],
+            "defense": [
+                "X",
+                ""
+            ],
+            "hko_hotkey_g_s": [
+                "Shift + G",
+                ""
+            ],
+            "select_commander": [
+                "Z",
+                ""
+            ],
+            "fac_group2": [
+                "Ctrl + Shift + 2",
+                ""
+            ],
+            "Select experimentals on screen": [
+                "Ctrl + L",
+                ""
+            ],
+            "target_Bships": [
+                "Ctrl + Alt + B",
+                ""
+            ],
+            "Select (normal) naval units on screen": [
+                "Ctrl + D",
+                ""
+            ],
+            "soft_stop": [
+                "`",
+                ""
+            ],
+            "hko_hotkey_r_s": [
+                "Shift + R",
+                ""
+            ],
+            "shift_transport": [
+                "Alt + Shift + R",
+                ""
+            ],
+            "Engies": [
+                "Ctrl + Alt + W",
+                ""
+            ],
+            "fac_group0": [
+                "Ctrl + Shift + 0",
+                ""
+            ],
+            "t3_support_air_factory": [
+                "Alt + E",
+                ""
+            ],
+            "show_objective_screen": [
+                "F12",
+                ""
+            ],
+            "toggle_disconnect_screen": [
+                "F11",
+                ""
+            ],
+            "Select nonindirect fire land units on screen": [
+                "Ctrl + X",
+                ""
+            ],
+            "ping_attack": [
+                "Ctrl + 3",
+                ""
+            ],
+            "fieldengy": [
+                "L",
+                ""
+            ],
+            "ping_marker": [
+                "Ctrl + 4",
+                ""
+            ],
+            "hko_hotkey_e_s": [
+                "Shift + E",
+                ""
+            ],
+            "move": [
+                "Q",
+                ""
+            ],
+            "toggle_diplomacy_screen": [
+                "F4",
+                ""
+            ],
+            "hko_hotkey_1_as": [
+                "Alt + Shift + 1",
+                ""
+            ],
+            "toggle_main_menu": [
+                "F10",
+                ""
+            ],
+            "split_next": [
+                "Ctrl + Alt + Shift + V",
+                ""
+            ],
+            "ping_alert": [
+                "Ctrl + 1",
+                ""
+            ],
+            "repair": [
+                "Alt + Q",
+                ""
+            ],
+            "debug_sally_shears": [
+                "Ctrl + Shift + \\",
+                ""
+            ],
+            "Set: Which domains to filter to: LAND  > NAVAL > AIR": [
+                "Alt + S",
+                ""
+            ],
+            "debug_create_entity": [
+                "Shift + F6",
+                ""
+            ],
+            "append_group9": [
+                "Shift + 9",
+                ""
+            ],
+            "pause": [
+                "Ctrl + Alt + Shift + =",
+                ""
+            ],
+            "reset_game_speed": [
+                "*",
+                ""
+            ],
+            "Set: Which domains to filter to: NAVAL > LAND  > AIR": [
+                "Alt + D",
+                ""
+            ],
+            "debug_bones": [
+                "/",
+                ""
+            ],
+            "fac_group1": [
+                "Ctrl + Shift + 1",
+                ""
+            ],
+            "Units": [
+                "Ctrl + Alt + U",
+                ""
+            ],
+            "select_anti_air_fighters": [
+                "Ctrl + V",
+                ""
+            ],
+            "fac_group3": [
+                "Ctrl + Shift + 3",
+                ""
+            ],
+            "create_template_factory": [
+                "Ctrl + Alt + Shift + '",
+                ""
+            ],
+            "mml": [
+                "J",
+                ""
+            ],
+            "Kill_Selected_Units": [
+                "Ctrl + Shift + ]",
+                ""
+            ],
+            "patrol": [
+                "Ctrl + Q",
+                ""
+            ],
+            "Fighters": [
+                "Ctrl + Alt + V",
+                ""
+            ],
+            "shift_dive": [
+                "Alt + Shift + V",
+                ""
+            ],
+            "show_network_stats": [
+                "F9",
+                ""
+            ],
+            "increase_game_speed": [
+                "Ctrl + Shift + =",
+                ""
+            ],
+            "guard": [
+                "Alt + Z",
+                ""
+            ],
+            "show_fps": [
+                "/",
+                ""
+            ],
+            "Select air scouts on screen": [
+                "Ctrl + E",
+                ""
+            ],
+            "toggle_repeat_build": [
+                "Comma",
+                ""
+            ],
+            "hko_hotkey_2_s": [
+                "Shift + 2",
+                ""
+            ],
+            "set_group7": [
+                "Ctrl + 7",
+                ""
+            ],
+            "hko_hotkey_y": [
+                "Y",
+                ""
+            ],
+            "hko_hotkey_1_a": [
+                "Alt + 1",
+                ""
+            ],
+            "hko_hotkey_d_s": [
+                "Shift + D",
+                ""
+            ],
+            "nuke": [
+                "Alt + T",
+                ""
+            ],
+            "Power": [
+                "Ctrl + Alt + F",
+                ""
+            ],
+            "target_Destros": [
+                "Ctrl + Alt + G",
+                ""
+            ],
+            "append_group7": [
+                "Shift + 7",
+                ""
+            ],
+            "Toggle: Mod is enabled": [
+                "Alt + '",
+                ""
+            ],
+            "load_transports": [
+                "Ctrl + Alt + Shift + L",
+                ""
+            ],
+            "append_group0": [
+                "Shift + 0",
+                ""
+            ],
+            "set_group6": [
+                "Ctrl + 6",
+                ""
+            ],
+            "Set: Which domains to filter to: AIR   > NAVAL > LAND": [
+                "Alt + F",
+                ""
+            ],
+            "energy_storage": [
+                "Alt + Shift + D",
+                ""
+            ],
+            "Select transports on screen": [
+                "Ctrl + H",
+                ""
+            ],
+            "shift_guard": [
+                "Alt + Shift + Z",
+                ""
+            ],
+            "chat_page_down": [
+                "PageDown",
+                ""
+            ],
+            "Select land bombers on screen": [
+                "Ctrl + B",
+                ""
+            ],
+            "debug_toggle_log_window": [
+                "Alt + F6",
+                ""
+            ],
+            "debug_render_wireframe": [
+                "Alt + /",
+                ""
+            ],
+            "toggle_cloak": [
+                "Ctrl + R",
+                ""
+            ],
+            "hko_hotkey_w_a": [
+                "Alt + W",
+                ""
+            ],
+            "chat_line_up": [
+                "Shift + PageUp",
+                ""
+            ],
+            "select_all_factory_onscreen": [
+                "Ctrl + F",
+                ""
+            ],
+            "stop": [
+                "Esc",
+                ""
+            ],
+            "shift_move": [
+                "Shift + Q",
+                ""
+            ],
+            "Mex": [
+                "Ctrl + Alt + S",
+                ""
+            ],
+            "Shields": [
+                "Ctrl + Alt + D",
+                ""
+            ],
+            "append_group6": [
+                "Shift + 6",
+                ""
+            ],
+            "chat_line_down": [
+                "Shift + PageDown",
+                ""
+            ],
+            "Toggle: Filter exotics": [
+                "Alt + L",
+                ""
+            ],
+            "debug_skeletons": [
+                "Ctrl + /",
+                ""
+            ],
+            "fac_group8": [
+                "Ctrl + Shift + 8",
+                ""
+            ],
+            "hko_hotkey_y_s": [
+                "Shift + Y",
+                ""
+            ],
+            "dive": [
+                "Alt + V",
+                ""
+            ],
+            "massfab": [
+                "U",
+                ""
+            ],
+            "pgen": [
+                "F",
+                ""
+            ],
+            "fac_group5": [
+                "Ctrl + Shift + 5",
+                ""
+            ],
+            "Select idle engineers on screen except ACU": [
+                "Space",
+                ""
+            ],
+            "debug_blingbling": [
+                "Ctrl + Shift + '",
+                ""
+            ],
+            "switch_skin_up": [
+                "Alt + RightArrow",
+                ""
+            ],
+            "hko_hotkey_a_s": [
+                "Shift + A",
+                ""
+            ],
+            "Select torpedo bombers on screen": [
+                "Ctrl + M",
+                ""
+            ],
+            "suicide": [
+                "Ctrl + ]",
+                ""
+            ],
+            "teleport": [
+                "Alt + R",
+                ""
+            ],
+            "debug_paste_units": [
+                "Ctrl + F1",
+                ""
+            ],
+            "toggle_key_bindings": [
+                "F1",
+                ""
+            ],
+            "debug_collision": [
+                "Ctrl + Alt + /",
+                ""
+            ],
+            "mass_storage": [
+                "Alt + Shift + S",
+                ""
+            ],
+            "shift_attack": [
+                "Alt + Shift + A",
+                ""
+            ],
+            "quick_save": [
+                "F3",
+                ""
+            ],
+            "Select indirect fire land units on screen": [
+                "Ctrl + C",
+                ""
+            ],
+            "debug_teleport": [
+                "Alt + F3",
+                ""
+            ],
+            "mass": [
+                "S",
+                ""
+            ],
+            "shift_repair": [
+                "Alt + Shift + Q",
+                ""
+            ],
+            "Delete closest ring to mouse position": [
+                "Shift + P",
+                ""
+            ],
+            "attack": [
+                "Alt + A",
+                ""
+            ],
+            "mobileshield": [
+                "K",
+                ""
+            ]
+        }
+    }
+}
